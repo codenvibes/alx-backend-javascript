@@ -35,7 +35,7 @@
 
 
 <details>
-<summary><b><a href=" ">Await</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await">Await</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
