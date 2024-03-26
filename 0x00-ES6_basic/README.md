@@ -664,10 +664,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 12. 
+### 12. Let's create a report object
 `mandatory`
 
-File: []()
+File: [12-createReportObject.js]()
 </summary>
 
 
