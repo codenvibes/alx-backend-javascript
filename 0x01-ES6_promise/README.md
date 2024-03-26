@@ -27,7 +27,7 @@
 
 
 <details>
-<summary><b><a href=" ">JavaScript Promise: An introduction</a></b></summary><br>
+<summary><b><a href="https://web.dev/articles/promises">JavaScript Promise: An introduction</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
