@@ -140,8 +140,8 @@ v12.11.1
 $ npm -v
 6.11.3
 ```
-Install Jest, Babel, and ESLint
-in your project directory, install Jest, Babel and ESList by using the supplied package.json and run npm install.
+### Install Jest, Babel, and ESLint
+in your project directory, install Jest, Babel and ESList by using the supplied `package.json` and run `npm install`.
 
 Configuration Files
 Add the files below to your project directory
