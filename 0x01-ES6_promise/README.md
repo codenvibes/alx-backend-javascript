@@ -75,7 +75,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a>How to use the then, resolve, catch methods</b></summary><br>
+<summary><b><a href=" "> </a>How to use the <code>then</code>, <code>resolve</code>, <code>catch</code> methods</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
