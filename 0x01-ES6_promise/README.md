@@ -146,17 +146,17 @@ in your project directory, install Jest, Babel and ESList by using the supplied 
 ## Configuration Files
 Add the files below to your project directory
 
-package.json
+### `package.json`
 Click to show/hide file contents
-babel.config.js
+### `babel.config.js`
 Click to show/hide file contents
-utils.js
-Use when you get to tasks requiring uploadPhoto and createUser.
+### `utils.js`
+Use when you get to tasks requiring `uploadPhoto` and `createUser`.
 
 Click to show/hide file contents
-.eslintrc.js
+### `.eslintrc.js`
 Click to show/hide file contents
-and…
+### and…
 Don’t forget to run $ npm install when you have the package.json
 
 Response Data Format
