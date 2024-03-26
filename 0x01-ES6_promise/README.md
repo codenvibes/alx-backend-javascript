@@ -83,7 +83,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use every method of the Promise object</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
