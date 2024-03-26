@@ -43,7 +43,7 @@
 
 
 <details>
-<summary><b><a href=" ">Async</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">Async</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
