@@ -291,7 +291,7 @@ File: [2-arrow.js]()
 </summary>
 
 Rewrite the following standard function to use ES6’s arrow syntax of the function `add` (it will be an anonymous function after)
-
+```
 export default function getNeighborhoodsList() {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
@@ -301,8 +301,9 @@ export default function getNeighborhoodsList() {
     return self.sanFranciscoNeighborhoods;
   };
 }
+```
 Execution:
-
+```
 bob@dylan:~$ cat 2-main.js
 import getNeighborhoodsList from './2-arrow.js';
 
@@ -313,7 +314,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 2-main.js 
 [ 'SOMA', 'Union Square', 'Noe Valley' ]
 bob@dylan:~$
-
+```
 </details>
 
 <details>
