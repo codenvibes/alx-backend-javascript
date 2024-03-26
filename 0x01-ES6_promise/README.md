@@ -143,7 +143,7 @@ $ npm -v
 ### Install Jest, Babel, and ESLint
 in your project directory, install Jest, Babel and ESList by using the supplied `package.json` and run `npm install`.
 
-Configuration Files
+## Configuration Files
 Add the files below to your project directory
 
 package.json
