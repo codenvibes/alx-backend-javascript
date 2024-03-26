@@ -246,7 +246,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 1. 
+### 1. Block Scope
 `mandatory`
 
 File: []()
