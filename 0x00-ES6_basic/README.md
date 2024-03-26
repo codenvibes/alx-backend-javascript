@@ -205,7 +205,7 @@ Don’t forget to run `npm install` from the terminal of your project folder to 
 ### 0. Const or let?
 `mandatory`
 
-File: []()
+File: [0-constants.js]()
 </summary>
 
 
