@@ -590,7 +590,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 10. 
+### 10. For...of Loops
 `mandatory`
 
 File: []()
