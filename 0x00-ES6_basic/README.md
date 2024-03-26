@@ -397,7 +397,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 5. 
+### 5. The wonders of spread syntax
 `mandatory`
 
 File: []()
