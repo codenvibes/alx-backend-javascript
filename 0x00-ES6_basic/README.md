@@ -544,7 +544,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 9. 
+### 9. ES6 method properties
 `mandatory`
 
 File: []()
