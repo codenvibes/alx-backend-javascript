@@ -91,7 +91,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Throw / Try</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
