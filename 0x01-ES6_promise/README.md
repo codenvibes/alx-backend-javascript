@@ -67,7 +67,7 @@
 
 ## Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Promises (how, why, and what)</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
