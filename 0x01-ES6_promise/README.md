@@ -13,6 +13,10 @@
 
 <br>
 
+<img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x01-ES6_promise/images/75862d67ca51a042003c.jpeg">
+
+<br>
+
 ## Resources
 <details>
 <summary><b><a href=" "> </a></b></summary><br>
