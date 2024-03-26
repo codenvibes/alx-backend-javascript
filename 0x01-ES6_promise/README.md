@@ -127,7 +127,7 @@
 - All of your functions must be exported
 
 ## Setup
-Install NodeJS 12.11.x
+### Install NodeJS 12.11.x
 (in your home directory):
 
 curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
