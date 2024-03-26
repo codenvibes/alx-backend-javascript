@@ -547,7 +547,7 @@ bob@dylan:~$
 ### 9. ES6 method properties
 `mandatory`
 
-File: []()
+File: [9-getFullBudget.js]()
 </summary>
 
 
