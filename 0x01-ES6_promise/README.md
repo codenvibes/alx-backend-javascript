@@ -19,7 +19,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" ">Promise</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
