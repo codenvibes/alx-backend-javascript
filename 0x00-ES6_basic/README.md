@@ -11,6 +11,8 @@
 <h3><a href=>Notes</a></h3>
 <hr> -->
 
+<br>
+
 <img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png">
 
 <br>
