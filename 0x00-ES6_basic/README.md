@@ -726,12 +726,13 @@ File: [100-createIteratorObject.js]()
 Write a function named `createIteratorObject`, that will take into argument a report Object created with the previous function `createReportObject`.
 
 This function will return an iterator to go through every employee in every department.
-
+```
 export default function createIteratorObject(report) {
 
 }
+```
 Execution:
-
+```
 bob@dylan:~$ cat 100-main.js
 import createIteratorObject from "./100-createIteratorObject.js";
 
@@ -757,7 +758,7 @@ Bob
 Jane
 Sylvie
 bob@dylan:~$
-
+```
 </details>
 
 <details>
