@@ -467,7 +467,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 7. 
+### 7. Object property value shorthand syntax
 `mandatory`
 
 File: []()
