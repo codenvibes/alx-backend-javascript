@@ -123,7 +123,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>String templating in ES6</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
