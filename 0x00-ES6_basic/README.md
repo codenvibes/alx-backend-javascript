@@ -432,7 +432,7 @@ bob@dylan:~$
 ### 6. Take advantage of template literals
 `mandatory`
 
-File: []()
+File: [6-string-interpolation.js]()
 </summary>
 
 
