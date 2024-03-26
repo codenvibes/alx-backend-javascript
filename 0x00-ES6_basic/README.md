@@ -107,7 +107,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Arrow functions and function parameters default to them</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -115,7 +115,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Rest and spread function parameters</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
