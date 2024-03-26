@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x01. ES6 PROMISES</b></h1>
-<div align="center"><code></code> <code></code></div>
+<div align="center"><code>JavaScript</code> <code>ES6</code></div>
 
 <!-- <br>
 
