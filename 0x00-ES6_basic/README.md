@@ -66,14 +66,6 @@
 </details>
 
 
-<details>
-<summary><b><a href=" "> </a></b></summary><br>
-
-
-<br><p align="center">※※※※※※※※※※※※</p><br>
-</details>
-
-
 <!-- <br>
 
 **man or help:**
