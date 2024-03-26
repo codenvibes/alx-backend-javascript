@@ -364,7 +364,7 @@ bob@dylan:~$
 ### 4. Rest parameter syntax for functions
 `mandatory`
 
-File: []()
+File: [4-rest-parameter.js]()
 </summary>
 
 
