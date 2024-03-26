@@ -99,7 +99,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Block-scoped variables</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
