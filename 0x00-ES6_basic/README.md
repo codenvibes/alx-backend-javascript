@@ -624,7 +624,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 11. 
+### 11. Iterator
 `mandatory`
 
 File: []()
