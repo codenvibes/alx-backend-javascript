@@ -476,7 +476,7 @@ File: [7-getBudgetObject.js]()
 Notice how the keys and the variable names are the same?
 
 Modify the following function’s `budget` object to simply use the keyname instead.
-
+```
 export default function getBudgetObject(income, gdp, capita) {
   const budget = {
     income: income,
@@ -486,8 +486,9 @@ export default function getBudgetObject(income, gdp, capita) {
 
   return budget;
 }
+```
 Execution:
-
+```
 bob@dylan:~$ cat 7-main.js
 import getBudgetObject from './7-getBudgetObject.js';
 
@@ -497,7 +498,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 7-main.js 
 { income: 400, gdp: 700, capita: 900 }
 bob@dylan:~$
-
+```
 </details>
 
 <details>
