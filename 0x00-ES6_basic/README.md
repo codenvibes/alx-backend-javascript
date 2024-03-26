@@ -284,10 +284,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 2. 
+### 2. Arrow functions
 `mandatory`
 
-File: []()
+File: [2-arrow.js]()
 </summary>
 
 
