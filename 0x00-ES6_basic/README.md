@@ -158,6 +158,21 @@
 - Your code will be analyzed using the linter [ESLint](https://eslint.org/) along with specific rules that we’ll provide
 - All of your functions must be exported
 
+
+<br>
+
+## Setup
+### Install NodeJS 12.11.x
+(in your home directory):
+
+curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs -y
+$ nodejs -v
+v12.11.1
+$ npm -v
+6.11.3
+
 <!-- <br>
 
 ## More Info -->
