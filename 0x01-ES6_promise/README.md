@@ -51,7 +51,7 @@
 
 
 <details>
-<summary><b><a href=" ">Throw / Try</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw">Throw / Try</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
