@@ -13,7 +13,7 @@
 
 <br>
 
-<img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x01-ES6_promise/images/75862d67ca51a042003c.jpeg" align="middle">
+<p align="center"><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x01-ES6_promise/images/75862d67ca51a042003c.jpeg"></p>
 
 <br>
 
