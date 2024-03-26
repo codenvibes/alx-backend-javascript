@@ -429,7 +429,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 6. 
+### 6. Take advantage of template literals
 `mandatory`
 
 File: []()
