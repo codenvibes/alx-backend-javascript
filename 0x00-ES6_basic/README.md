@@ -764,10 +764,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 14. 
+### 14. Iterate through object
 `#advanced`
 
-File: []()
+File: [101-iterateThroughObject.js]()
 </summary>
 
 
