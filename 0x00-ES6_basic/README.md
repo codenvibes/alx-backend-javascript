@@ -504,7 +504,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 8. 
+### 8. No need to create empty objects before adding in properties
 `mandatory`
 
 File: []()
