@@ -470,7 +470,7 @@ bob@dylan:~$
 ### 7. Object property value shorthand syntax
 `mandatory`
 
-File: []()
+File: [7-getBudgetObject.js]()
 </summary>
 
 
