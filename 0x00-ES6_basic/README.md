@@ -249,7 +249,7 @@ bob@dylan:~$
 ### 1. Block Scope
 `mandatory`
 
-File: []()
+File: [1-block-scoped.js]()
 </summary>
 
 
