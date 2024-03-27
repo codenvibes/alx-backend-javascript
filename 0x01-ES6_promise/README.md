@@ -225,7 +225,7 @@ When the argument is:
         - `status`: `200`
         - `body`: `'Success'`
 - `false`
-    - reject the promise with an error object with the message The fake API is not working currently
+    - reject the promise with an error object with the message `The fake API is not working currently`
 Try testing it out for yourself
 
 bob@dylan:~$ cat 1-main.js
