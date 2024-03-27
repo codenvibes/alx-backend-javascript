@@ -346,10 +346,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 5. 
+### 5. Reject the promises
 `mandatory`
 
-File: []()
+File: [5-photo-reject.js]()
 </summary>
 
 
