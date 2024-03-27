@@ -379,7 +379,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 6. 
+### 6. Handle multiple promises
 `mandatory`
 
 File: []()
