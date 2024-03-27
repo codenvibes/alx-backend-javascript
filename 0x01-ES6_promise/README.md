@@ -295,7 +295,7 @@ Knowing that the functions in `utils.js` return promises, use the prototype belo
 ```
 function handleProfileSignup()
 ```
-In the event of an error, log Signup system offline to the console
+In the event of an error, log `Signup system offline` to the console
 
 bob@dylan:~$ cat 3-main.js
 import handleProfileSignup from "./3-all";
