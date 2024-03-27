@@ -500,10 +500,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 9. 
+### 9. Throw an error
 `mandatory`
 
-File: []()
+File: [9-try.js]()
 </summary>
 
 
