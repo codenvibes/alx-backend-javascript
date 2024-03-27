@@ -226,8 +226,9 @@ When the argument is:
         - `body`: `'Success'`
 - `false`
     - reject the promise with an error object with the message `The fake API is not working currently`
-Try testing it out for yourself
 
+Try testing it out for yourself
+```
 bob@dylan:~$ cat 1-main.js
 import getFullResponseFromAPI from './1-promise';
 
@@ -242,7 +243,7 @@ Promise {
     ...
     ...
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
