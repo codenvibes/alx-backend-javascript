@@ -312,10 +312,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 4. 
+### 4. Simple promise
 `mandatory`
 
-File: []()
+File: [4-user-promise.js]()
 </summary>
 
 
