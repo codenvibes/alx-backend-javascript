@@ -184,7 +184,7 @@ Don’t forget to run `$ npm install` when you have the `package.json`
 <details>
 <summary>
 
-### 0. 
+### 0. Keep every promise you make and only make promises you can keep
 `mandatory`
 
 File: []()
