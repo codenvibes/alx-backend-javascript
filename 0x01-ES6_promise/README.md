@@ -388,7 +388,7 @@ File: [6-final-user.js]()
 Import `signUpUser` from `4-user-promise.js` and `uploadPhoto` from `5-photo-reject.js`.
 
 Write and export a function named `handleProfileSignup`. It should accept three arguments `firstName` (string), `lastName` (string), and `fileName` (string). The fun ction should call the two other functions. When the promises are all settled it should return an array with the following structure:
-
+```
 [
     {
       status: status_of_the_promise,
@@ -396,6 +396,8 @@ Write and export a function named `handleProfileSignup`. It should accept three 
     },
     ...
   ]
+```
+```
 bob@dylan:~$ cat 6-main.js
 import handleProfileSignup from './6-final-user';
 
@@ -405,7 +407,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 6-main.js 
 Promise { <pending> }
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
