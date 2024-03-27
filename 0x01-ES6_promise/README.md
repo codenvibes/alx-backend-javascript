@@ -413,7 +413,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 7. 
+### 7. Load balancer
 `mandatory`
 
 File: []()
