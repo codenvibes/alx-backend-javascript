@@ -464,10 +464,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 8. 
+### 8. Throw error / try catch
 `mandatory`
 
-File: []()
+File: [8-try.js]()
 </summary>
 
 
