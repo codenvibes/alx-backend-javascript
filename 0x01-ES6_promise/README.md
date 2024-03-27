@@ -382,7 +382,7 @@ bob@dylan:~$
 ### 6. Handle multiple promises
 `mandatory`
 
-File: []()
+File: [6-final-user.js]()
 </summary>
 
 
