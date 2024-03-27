@@ -470,7 +470,7 @@ bob@dylan:~$
 File: [8-try.js]()
 </summary>
 
-Write a function named `divideFunction` that will accept two arguments: `numerator` (Number) and denominator (Number).
+Write a function named `divideFunction` that will accept two arguments: `numerator` (Number) and `denominator` (Number).
 
 When the denominator argument is equal to 0, the function should throw a new error with the message cannot divide by 0. Otherwise it should return the numerator divided by the denominator.
 
