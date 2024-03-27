@@ -473,10 +473,12 @@ File: [8-try.js]()
 Write a function named `divideFunction` that will accept two arguments: `numerator` (Number) and `denominator` (Number).
 
 When the `denominator` argument is equal to 0, the function should throw a new error with the message `cannot divide by 0`. Otherwise it should return the numerator divided by the denominator.
-
+```
 export default function divideFunction(numerator, denominator) {
 
 }
+```
+```
 bob@dylan:~$ cat 8-main.js
 import divideFunction from './8-try';
 
@@ -492,7 +494,7 @@ bob@dylan:~$ npm run dev 8-main.js
 .....
 
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
