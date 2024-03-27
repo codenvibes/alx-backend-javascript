@@ -546,7 +546,7 @@ File: [100-await.js]()
 
 Import `uploadPhoto` and `createUser` from `utils.js`
 
-Write an async function named asyncUploadUser that will call these two functions and return an object with the following format:
+Write an async function named `asyncUploadUser` that will call these two functions and return an object with the following format:
 
 {
   photo: response_from_uploadPhoto_function,
