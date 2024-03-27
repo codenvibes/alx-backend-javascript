@@ -283,10 +283,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 3. 
+### 3. Handle multiple successful promises
 `mandatory`
 
-File: []()
+File: [3-all.js]()
 </summary>
 
 
