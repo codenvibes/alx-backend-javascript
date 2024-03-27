@@ -296,7 +296,7 @@ Knowing that the functions in `utils.js` return promises, use the prototype belo
 function handleProfileSignup()
 ```
 In the event of an error, log `Signup system offline` to the console
-
+```
 bob@dylan:~$ cat 3-main.js
 import handleProfileSignup from "./3-all";
 
@@ -306,7 +306,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 3-main.js 
 photo-profile-1 Guillaume Salva
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
