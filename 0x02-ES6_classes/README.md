@@ -289,7 +289,7 @@ File: [4-pricing.js]()
 
 Import the class `Currency` from `3-currency.js`
 
-Implement a class named Pricing:
+Implement a class named `Pricing`:
 
 Constructor attributes:
 amount (Number)
