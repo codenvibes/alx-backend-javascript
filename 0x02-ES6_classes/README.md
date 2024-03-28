@@ -164,10 +164,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 1. 
+### 1. Let's make some classrooms
 `mandatory`
 
-File: []()
+File: [1-make_classrooms.js]()
 </summary>
 
 
