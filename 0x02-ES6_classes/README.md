@@ -321,7 +321,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 5. 
+### 5. A Building
 `mandatory`
 
 File: []()
