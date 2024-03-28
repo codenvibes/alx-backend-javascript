@@ -281,7 +281,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 4. 
+### 4. Pricing
 `mandatory`
 
 File: []()
