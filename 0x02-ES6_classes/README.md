@@ -521,7 +521,7 @@ export class StudentHolberton {
 export const listOfStudents = [student1, student2, student3, student4, student5];
 ```
 Result:
-
+```
 bob@dylan:~$ cat 9-main.js
 import listOfStudents from "./9-hoisting.js";
 
@@ -570,7 +570,7 @@ bob@dylan:~$ npm run dev 9-main.js
   'Jason Sandler - 2019 - San Francisco'
 ]
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
