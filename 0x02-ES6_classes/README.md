@@ -43,7 +43,7 @@
 
 ## Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to define a Class</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -51,7 +51,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to add methods to a class</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
