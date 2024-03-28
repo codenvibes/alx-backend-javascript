@@ -371,7 +371,7 @@ File: [6-sky_high.js]()
 
 Import `Building` from `5-building.js`.
 
-Implement a class named SkyHighBuilding that extends from Building:
+Implement a class named `SkyHighBuilding` that extends from `Building`:
 
 Constructor attributes:
 sqft (Number) (must be assigned to the parent class Building)
