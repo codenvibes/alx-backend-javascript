@@ -468,7 +468,7 @@ bob@dylan:~$
 ### 9. Hoisting
 `mandatory`
 
-File: []()
+File: [9-hoisting.js]()
 </summary>
 
 
