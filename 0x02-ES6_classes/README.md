@@ -94,7 +94,9 @@
 - Your code will be verified against lint using ESLint
 - Your code needs to pass all the tests and lint. You can verify the entire project running `npm run full-test`
 
-Setup
+<br>
+
+## Setup
 Install NodeJS 12.11.x
 (in your home directory):
 
