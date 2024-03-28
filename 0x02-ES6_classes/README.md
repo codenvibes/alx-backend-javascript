@@ -298,6 +298,7 @@ Implement a class named `Pricing`:
 - Implement a getter and setter for each attribute.
 - Implement a method named `displayFullPrice` that returns the attributes in the following format `amount currency_name (currency_code)`.
 - Implement a static method named `convertPrice`. It should accept two arguments: `amount` (Number), `conversionRate` (Number). The function should return the amount multiplied by the conversion rate.
+```
 bob@dylan:~$ cat 4-main.js
 import Pricing from './4-pricing.js';
 import Currency from './3-currency.js';
@@ -314,7 +315,7 @@ Pricing {
 }
 100 Euro (EUR)
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
