@@ -13,6 +13,10 @@
 
 <br>
 
+<img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x02-ES6_classes/images/817248fb77fb5c2cef3f.jpeg">
+
+<br>
+
 ## Resources
 <details>
 <summary><b><a href=" "> </a></b></summary><br>
