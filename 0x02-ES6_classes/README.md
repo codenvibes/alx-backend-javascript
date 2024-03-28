@@ -465,7 +465,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 9. 
+### 9. Hoisting
 `mandatory`
 
 File: []()
