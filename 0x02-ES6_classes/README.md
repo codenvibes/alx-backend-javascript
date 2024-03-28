@@ -250,7 +250,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 3. 
+### 3. Methods, static methods, computed methods names..... MONEY
 `mandatory`
 
 File: []()
