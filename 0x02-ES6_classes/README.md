@@ -432,10 +432,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 8. 
+### 8. Primitive - Holberton Class
 `mandatory`
 
-File: []()
+File: [8-hbtn_class.js]()
 </summary>
 
 
