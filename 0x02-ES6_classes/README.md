@@ -19,7 +19,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" ">Classes</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Classes</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
