@@ -147,6 +147,7 @@ Implement a class named `ClassRoom`:
 
 - Prototype: `export default class ClassRoom`
 - It should accept one attribute named `maxStudentsSize` (Number) and assigned to `_maxStudentsSize`
+```
 bob@dylan:~$ cat 0-main.js
 import ClassRoom from "./0-classroom.js";
 
@@ -157,7 +158,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 0-main.js 
 10
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
