@@ -333,8 +333,8 @@ Implement a class named `Building`:
     - `sqft` (Number)
 - Each attribute must be stored in an “underscore” attribute version (ex: `name` is stored in `_name`)
 - Implement a getter for each attribute.
-- Consider this class as an abstract class. And make sure that any class that extends from it should implement a method named evacuationWarningMessage.
-    - If a class that extends from it does not have a evacuationWarningMessage method, throw an error with the message Class extending Building must override evacuationWarningMessage
+- Consider this class as an abstract class. And make sure that any class that extends from it should implement a method named `evacuationWarningMessage`.
+    - If a class that extends from it does not have a `evacuationWarningMessage` method, throw an error with the message `Class extending Building must override evacuationWarningMessage`
 bob@dylan:~$ cat 5-main.js
 import Building from './5-building.js';
 
