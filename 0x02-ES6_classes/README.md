@@ -140,7 +140,7 @@ Don’t forget to run `$ npm install` when you have the `package.json`
 ### 0. You used to attend a place like this at some point
 `mandatory`
 
-File: []()
+File: [0-classroom.js]()
 </summary>
 
 
