@@ -143,6 +143,20 @@ Don’t forget to run `$ npm install` when you have the `package.json`
 File: [0-classroom.js]()
 </summary>
 
+Implement a class named `ClassRoom`:
+
+Prototype: export default class ClassRoom
+It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
+bob@dylan:~$ cat 0-main.js
+import ClassRoom from "./0-classroom.js";
+
+const room = new ClassRoom(10);
+console.log(room._maxStudentsSize)
+
+bob@dylan:~$ 
+bob@dylan:~$ npm run dev 0-main.js 
+10
+bob@dylan:~$ 
 
 </details>
 
