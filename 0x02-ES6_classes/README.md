@@ -363,10 +363,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 6. 
+### 6. Inheritance
 `mandatory`
 
-File: []()
+File: [6-sky_high.js]()
 </summary>
 
 
