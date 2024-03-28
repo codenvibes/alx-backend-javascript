@@ -196,7 +196,7 @@ bob@dylan:~$
 ### 2. A Course, Getters, and Setters
 `mandatory`
 
-File: []()
+File: [2-hbtn_course.js]()
 </summary>
 
 
