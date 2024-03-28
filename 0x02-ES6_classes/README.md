@@ -146,7 +146,7 @@ File: [0-classroom.js]()
 Implement a class named `ClassRoom`:
 
 - Prototype: `export default class ClassRoom`
-- It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
+- It should accept one attribute named `maxStudentsSize` (Number) and assigned to `_maxStudentsSize`
 bob@dylan:~$ cat 0-main.js
 import ClassRoom from "./0-classroom.js";
 
