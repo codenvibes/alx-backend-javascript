@@ -59,7 +59,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Why and how to add a static method to a class</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
