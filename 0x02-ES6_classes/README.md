@@ -640,7 +640,7 @@ Implement a class named `EVCar` that extends the `Car` class:
     - `range` (String)
 - Each attribute must be stored in an “underscore” attribute version (ex: `name` is stored in `_name`)
 - For privacy reasons, when `cloneCar` is called on a EVCar object, the object returned should be an instance of `Car` instead of `EVCar`.
-
+```
 bob@dylan:~$ cat 100-main.js
 import EVCar from './100-evcar.js';
 
@@ -660,6 +660,6 @@ EVCar {
 }
 Car { _brand: undefined, _motor: undefined, _color: undefined }
 bob@dylan:~$ 
-
+```
 </details>
 
