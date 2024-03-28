@@ -592,7 +592,7 @@ Implement a class named `Car`:
 - Add a method named `cloneCar`. This method should return a new object of the class.
 
 Hint: Symbols in ES6
-
+```
 bob@dylan:~$ cat 10-main.js
 import Car from "./10-car.js";
 
@@ -617,7 +617,7 @@ TestCar { _brand: undefined, _motor: undefined, _color: undefined }
 true
 false
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
