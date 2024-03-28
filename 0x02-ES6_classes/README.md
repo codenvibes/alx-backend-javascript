@@ -253,7 +253,7 @@ bob@dylan:~$
 ### 3. Methods, static methods, computed methods names..... MONEY
 `mandatory`
 
-File: []()
+File: [3-currency.js]()
 </summary>
 
 
