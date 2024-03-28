@@ -256,7 +256,7 @@ bob@dylan:~$
 File: [3-currency.js]()
 </summary>
 
-Implement a class named Currency:
+Implement a class named `Currency`:
 
 - Constructor attributes:
     - `code` (String)
