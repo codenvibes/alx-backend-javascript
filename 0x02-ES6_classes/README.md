@@ -284,7 +284,7 @@ bob@dylan:~$
 ### 4. Pricing
 `mandatory`
 
-File: []()
+File: [4-pricing.js]()
 </summary>
 
 
