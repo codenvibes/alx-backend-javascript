@@ -193,7 +193,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 2. 
+### 2. A Course, Getters, and Setters
 `mandatory`
 
 File: []()
