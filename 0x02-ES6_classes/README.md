@@ -379,6 +379,7 @@ Implement a class named `SkyHighBuilding` that extends from `Building`:
 - Each attribute must be stored in an “underscore” attribute version (ex: `name` is stored in `_name`)
 - Implement a getter for each attribute.
 - Override the method named `evacuationWarningMessage` and return the following string `Evacuate slowly the NUMBER_OF_FLOORS floors`.
+```
 bob@dylan:~$ cat 6-main.js
 import SkyHighBuilding from './6-sky_high.js';
 
@@ -393,7 +394,7 @@ bob@dylan:~$ npm run dev 6-main.js
 60
 Evacuate slowly the 60 floors
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
