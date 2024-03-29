@@ -278,7 +278,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 4. 
+### 4. Combine
 `mandatory`
 
 File: []()
