@@ -284,7 +284,7 @@ bob@dylan:~$
 File: [4-update_grade_by_city.js]()
 </summary>
 
-Create a function updateStudentGradeByCity that returns an array of students for a specific city with their new grade
+Create a function `updateStudentGradeByCity` that returns an array of students for a specific city with their new grade
 
 It should accept a list of students (from getListStudents), a city (String), and newGrades (Array of “grade” objects) as parameters.
 
