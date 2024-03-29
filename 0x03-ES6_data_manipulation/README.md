@@ -298,7 +298,7 @@ It should accept a list of students (from `getListStudents`), a `city` (String),
 ```  
 If a student doesn’t have grade in `newGrades`, the final grade should be `N/A`.
 
-You must use filter and map combined.
+You must use `filter` and `map` combined.
 
 bob@dylan:~$ cat 4-main.js
 import getListStudents from "./0-get_list_students.js";
