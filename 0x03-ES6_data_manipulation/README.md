@@ -105,7 +105,7 @@
 
 <br>
 
-Setup
+## Setup
 Install NodeJS 12.11.x
 (in your home directory):
 
@@ -119,7 +119,9 @@ $ npm -v
 Install Jest, Babel, and ESLint
 in your project directory, install Jest, Babel and ESList by using the supplied package.json and run npm install.
 
-Configuration files
+<br>
+
+## Configuration files
 Add the following files to your project directory
 
 package.json
