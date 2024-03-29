@@ -159,9 +159,9 @@ Each object should have three attributes: `id` (Number), `firstName` (String), a
 
 The array contains the following students in order:
 
-Guillaume, id: 1, in San Francisco
-James, id: 2, in Columbia
-Serena, id: 5, in San Francisco
+- Guillaume, id: 1, in San Francisco
+- James, id: 2, in Columbia
+- Serena, id: 5, in San Francisco
 bob@dylan:~$ cat 0-main.js
 import getListStudents from "./0-get_list_students.js";
 
