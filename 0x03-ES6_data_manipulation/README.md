@@ -296,7 +296,7 @@ It should accept a list of students (from `getListStudents`), a `city` (String),
     grade: 78,
   }
 ```  
-If a student doesn’t have grade in newGrades, the final grade should be N/A.
+If a student doesn’t have grade in `newGrades`, the final grade should be `N/A`.
 
 You must use filter and map combined.
 
