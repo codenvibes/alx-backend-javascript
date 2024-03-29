@@ -335,10 +335,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 5. 
+### 5. Typed Arrays
 `mandatory`
 
-File: []()
+File: [5-typed_arrays.js]()
 </summary>
 
 
