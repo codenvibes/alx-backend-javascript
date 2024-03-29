@@ -147,10 +147,10 @@ Don’t forget to run `$ npm install` when you have the `package.json`
 <details>
 <summary>
 
-### 0. 
+### 0. Basic list of objects
 `mandatory`
 
-File: []()
+File: [0-get_list_students.js]()
 </summary>
 
 
