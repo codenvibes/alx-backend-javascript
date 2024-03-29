@@ -299,7 +299,7 @@ It should accept a list of students (from `getListStudents`), a `city` (String),
 If a student doesn’t have grade in `newGrades`, the final grade should be `N/A`.
 
 You must use `filter` and `map` combined.
-
+```
 bob@dylan:~$ cat 4-main.js
 import getListStudents from "./0-get_list_students.js";
 import updateStudentGradeByCity from "./4-update_grade_by_city.js";
@@ -329,7 +329,7 @@ bob@dylan:~$ npm run dev 4-main.js
   { id: 5, firstName: 'Serena', location: 'San Francisco', grade: 97 }
 ]
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
