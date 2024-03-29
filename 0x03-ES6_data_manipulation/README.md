@@ -13,6 +13,10 @@
 
 <br>
 
+<p align="center"><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x03-ES6_data_manipulation/images/6ab7bec4727cb5c91257.jpg"></p>
+
+<br>
+
 ## Resources
 <details>
 <summary><b><a href=" ">Array</a></b></summary><br>
