@@ -253,9 +253,9 @@ bob@dylan:~$
 File: [3-get_ids_sum.js]()
 </summary>
 
-Create a function getStudentIdsSum that returns the sum of all the student ids.
+Create a function `getStudentIdsSum` that returns the sum of all the student ids.
 
-It should accept a list of students (from getListStudents) as a parameter.
+It should accept a list of students (from `getListStudents`) as a parameter.
 
 You must use the reduce function on the array.
 
