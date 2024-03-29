@@ -214,10 +214,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 2. 
+### 2. Filter
 `mandatory`
 
-File: []()
+File: [2-get_students_by_loc.js]()
 </summary>
 
 
