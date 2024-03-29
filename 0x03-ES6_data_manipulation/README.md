@@ -51,7 +51,7 @@
 
 
 <details>
-<summary><b><a href=" ">WeakMap</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap">WeakMap</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
