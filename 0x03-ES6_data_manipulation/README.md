@@ -43,7 +43,7 @@
 
 
 <details>
-<summary><b><a href=" ">Map Data Structure</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">Map Data Structure</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
