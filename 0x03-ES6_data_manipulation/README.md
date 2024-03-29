@@ -67,7 +67,7 @@
 
 ## Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>How to use map, filter and reduce on arrays</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
