@@ -220,7 +220,7 @@ bob@dylan:~$
 File: [2-get_students_by_loc.js]()
 </summary>
 
-Create a function getStudentsByLocation that returns an array of objects who are located in a specific city.
+Create a function `getStudentsByLocation` that returns an array of objects who are located in a specific city.
 
 It should accept a list of students (from getListStudents) and a city (string) as parameters.
 
