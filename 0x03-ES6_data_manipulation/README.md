@@ -224,7 +224,7 @@ Create a function `getStudentsByLocation` that returns an array of objects who a
 
 It should accept a list of students (from `getListStudents`) and a `city` (string) as parameters.
 
-You must use the filter function on the array.
+You must use the `filter` function on the array.
 
 bob@dylan:~$ cat 2-main.js
 import getListStudents from "./0-get_list_students.js";
