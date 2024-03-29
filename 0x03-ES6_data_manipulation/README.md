@@ -153,7 +153,7 @@ Don’t forget to run `$ npm install` when you have the `package.json`
 File: [0-get_list_students.js]()
 </summary>
 
-Create a function named getListStudents that returns an array of objects.
+Create a function named `getListStudents` that returns an array of objects.
 
 Each object should have three attributes: id (Number), firstName (String), and location (String).
 
