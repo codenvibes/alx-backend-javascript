@@ -247,10 +247,10 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 3. 
+### 3. Reduce
 `mandatory`
 
-File: []()
+File: [3-get_ids_sum.js]()
 </summary>
 
 
