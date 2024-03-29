@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x03. ES6 DATA MANIPULATION</b></h1>
-<div align="center"><code></code> <code></code></div>
+<div align="center"><code>JavaScript</code> <code>ES6</code></div>
 
 <!-- <br>
 
@@ -15,7 +15,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" ">Array</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
