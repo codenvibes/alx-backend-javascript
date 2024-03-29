@@ -27,7 +27,7 @@
 
 
 <details>
-<summary><b><a href=" ">Typed Array</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Typed_arrays">Typed Array</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -35,7 +35,7 @@
 
 
 <details>
-<summary><b><a href=" ">Set Data Structure</a></b></summary><br>
+<summary><b><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set">Set Data Structure</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
