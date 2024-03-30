@@ -149,7 +149,7 @@ File: [task_0/js/main.ts](), [task_0/package.json](), [task_0/.eslintrc.js](), [
 
 Copy the following configuration files (provided above) into the `task_0` directory: `package.json`, `.eslintrc.js`, `tsconfig.json`, `webpack.config.js`
 
-Write your code in the main.ts file:
+Write your code in the `main.ts` file:
 
 Write an interface named Student that accepts the following elements: firstName(string), lastName(string), age(number), and location(string)
 Create two students, and create an array named studentsList containing the two variables
