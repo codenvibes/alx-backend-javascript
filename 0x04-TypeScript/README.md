@@ -259,7 +259,7 @@ Write an interface for the function named `printTeacherFunction`.
 ### 4. Writing a class
 `mandatory`
 
-File: []()
+File: [task_1/js/main.ts]()
 </summary>
 
 
