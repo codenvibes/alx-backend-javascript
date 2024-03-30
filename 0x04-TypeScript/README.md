@@ -301,9 +301,10 @@ Create the `TeacherInterface` interface with the 3 expected methods:
 
 Create a class `Director` that will implement `DirectorInterface`
 
-- workFromHome should return the string Working from home
-- getToWork should return the string Getting a coffee break
-- workDirectorTasks should return the string Getting to director tasks
+- `workFromHome` should return the string `Working from home`
+- `getToWork` should return the string `Getting a coffee break`
+- `workDirectorTasks` should return the string `Getting to director tasks`
+
 Create a class Teacher that will implement TeacherInterface
 
 workFromHome should return the string Cannot work from home
