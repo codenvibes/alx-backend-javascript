@@ -345,9 +345,10 @@ Write a function `isDirector`:
 
 Write a function `executeWork`:
 
-it accepts `employee` as an argument
-if the employee is a Director, it will call `workDirectorTasks`
-if the employee is a Teacher, it will call `workTeacherTasks`
+- it accepts `employee` as an argument
+- if the employee is a Director, it will call `workDirectorTasks`
+- if the employee is a Teacher, it will call `workTeacherTasks`
+
 Expected result:
 
 executeWork(createEmployee(200));
