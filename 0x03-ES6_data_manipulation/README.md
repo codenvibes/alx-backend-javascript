@@ -433,7 +433,7 @@ Create a function named `cleanSet` that returns a string of all the set values t
 
 It accepts two arguments: a `set` (Set) and a `startString` (String).
 
-When a value starts with startString you only append the rest of the string. The string contains all the values of the set separated by -.
+When a value starts with `startString` you only append the rest of the string. The string contains all the values of the set separated by -.
 
 bob@dylan:~$ cat 8-main.js
 import cleanSet from "./8-clean_set.js";
