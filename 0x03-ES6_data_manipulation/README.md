@@ -369,7 +369,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 6. 
+### 6. Set data structure
 `mandatory`
 
 File: []()
