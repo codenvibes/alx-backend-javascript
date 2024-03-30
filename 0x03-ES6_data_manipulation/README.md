@@ -423,7 +423,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 8. 
+### 8. Clean set
 `mandatory`
 
 File: []()
