@@ -305,7 +305,7 @@ Create a class `Director` that will implement `DirectorInterface`
 - `getToWork` should return the string `Getting a coffee break`
 - `workDirectorTasks` should return the string `Getting to director tasks`
 
-Create a class Teacher that will implement TeacherInterface
+Create a class `Teacher` that will implement `TeacherInterface`
 
 workFromHome should return the string Cannot work from home
 getCoffeeBreak should return the string Cannot have a break
