@@ -155,10 +155,11 @@ Write your code in the `main.ts` file:
 - Create two students, and create an array named `studentsList` containing the two variables
 - Using Vanilla Javascript, render a table and for each elements in the array, append a new row to the table
 - Each row should contain the first name of the student and the location
+
 Requirements:
 
-When running, Webpack should return No type errors found.
-Every variable should use TypeScript when possible.
+- When running, Webpack should return `No type errors found`.
+- Every variable should use TypeScript when possible.
 
 </details>
 
