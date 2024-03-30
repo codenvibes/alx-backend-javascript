@@ -458,7 +458,7 @@ bob@dylan:~$
 File: [9-groceries_list.js]()
 </summary>
 
-Create a function named groceriesList that returns a map of groceries with the following items (name, quantity):
+Create a function named `groceriesList` that returns a map of groceries with the following items (name, quantity):
 
 Apples, 10
 Tomatoes, 10
