@@ -237,10 +237,10 @@ console.log(director1);
 <details>
 <summary>
 
-### 3. 
+### 3. Printing teachers
 `mandatory`
 
-File: []()
+File: [task_1/js/main.ts]()
 </summary>
 
 
