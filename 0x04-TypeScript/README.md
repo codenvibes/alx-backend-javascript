@@ -123,7 +123,7 @@
 
 <br>
 
-Configuration Files
+## Configuration Files
 Please use these files for the following tasks
 
 package.json
