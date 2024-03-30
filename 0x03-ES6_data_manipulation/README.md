@@ -375,7 +375,7 @@ bob@dylan:~$
 File: [6-set.js]()
 </summary>
 
-Create a function named setFromArray that returns a Set from an array.
+Create a function named `setFromArray` that returns a `Set` from an array.
 
 It accepts an argument (Array, of any kind of element).
 
