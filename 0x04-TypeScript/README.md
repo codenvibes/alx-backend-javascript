@@ -245,9 +245,9 @@ File: [task_1/js/main.ts]()
 
 Write a function printTeacher:
 
-It accepts two arguments firstName and lastName
-It returns the first letter of the firstName and the full lastName
-Example: printTeacher("John", "Doe") -> J. Doe
+- It accepts two arguments firstName and lastName
+- It returns the first letter of the firstName and the full lastName
+- Example: printTeacher("John", "Doe") -> J. Doe
 Write an interface for the function named printTeacherFunction.
 
 </details>
