@@ -400,10 +400,11 @@ The first part of will require that you build an `interface` and a `type`. Insid
     - `firstName`: `string`
     - `lastName`: `string`
     - `age?`: `number`
+
 You are building the next part of the application architecture. The goal is to save the entities to a database. Because of time constraints, you can’t write a connector to the database, and you decided to download a library called crud.js. Copy this file into the task_3/js directory.
 
 Here it is
-
+```
 export function insertRow(row) {
   console.log('Insert row', row);
   return Math.floor(Math.random() * Math.floor(1000));
@@ -419,6 +420,7 @@ export function updateRow(rowId, row) {
 
   return rowId;
 }
+```
 Write an ambient file within task_3/js, named crud.d.ts containing the type declarations for each crud function. At the top of the file import RowID and RowElement from interface.ts.
 
 In main.ts
