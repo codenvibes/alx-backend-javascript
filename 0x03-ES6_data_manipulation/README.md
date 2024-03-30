@@ -394,7 +394,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 7. 
+### 7. More set data structure
 `mandatory`
 
 File: []()
