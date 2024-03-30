@@ -472,7 +472,7 @@ File: [task_4/package.json](), [task_4/tsconfig.json](), [task_4/js/subjects/Cpp
 </summary>
 
 Create a new directory `task_4` and copy the above `tsconfig.json` and put this `package.json` in there
-
+```
 {
   "name": "task_4",
   "version": "1.0.0",
@@ -498,6 +498,7 @@ Create a new directory `task_4` and copy the above `tsconfig.json` and put this 
     "webpack-dev-server": "^3.8.2"
   }
 }
+```
 In task_4/js/subjects:
 
 Create a file Teacher.ts and write a Teacher interface in a namespace named Subjects.
