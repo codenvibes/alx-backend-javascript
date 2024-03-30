@@ -99,7 +99,7 @@
 
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>Basic nominal typing with Typescript</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
