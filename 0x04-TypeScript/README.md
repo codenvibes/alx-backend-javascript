@@ -528,10 +528,10 @@ In `task_4/js/subjects`:
 <details>
 <summary>
 
-### 10. 
+### 10. Update task_4/js/main.ts
 `mandatory`
 
-File: []()
+File: [task_4/js/main.ts]()
 </summary>
 
 
