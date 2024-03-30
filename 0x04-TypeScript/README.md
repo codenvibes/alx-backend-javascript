@@ -211,6 +211,26 @@ console.log(teacher3);
 File: [task_1/js/main.ts]()
 </summary>
 
+Write an interface named `Directors` that extends `Teacher`. It requires an attribute named `numberOfReports(number)`
+
+Example:
+
+const director1: Directors = {
+  firstName: 'John',
+  lastName: 'Doe',
+  location: 'London',
+  fullTimeEmployee: true,
+  numberOfReports: 17,
+};
+console.log(director1);
+
+// should print
+// Object
+// firstName: "John"
+// fullTimeEmployee: true
+// lastName: "Doe"
+// location: "London"
+// numberOfReports: 17
 
 </details>
 
