@@ -550,7 +550,7 @@ File: [task_4/js/main.ts]()
 ### 11. Brand convention & Nominal typing
 `mandatory`
 
-File: []()
+File: [task_5/js/main.ts](), [task_5/package.json](), [task_5/webpack.config.js](), [task_5/tsconfig.json]()
 </summary>
 
 
