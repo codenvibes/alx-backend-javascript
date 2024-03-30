@@ -289,9 +289,9 @@ File: [task_2/js/main.ts](), [task_2/webpack.config.js](), [task_2/tsconfig.json
 
 Create the `DirectorInterface` interface with the 3 expected methods:
 
-- workFromHome() returning a string
-- getCoffeeBreak() returning a string
-- workDirectorTasks() returning a string
+- `workFromHome()` returning a string
+- `getCoffeeBreak()` returning a string
+- `workDirectorTasks()` returning a string
 
 Create the TeacherInterface interface with the 3 expected methods:
 
