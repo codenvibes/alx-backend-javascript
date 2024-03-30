@@ -471,7 +471,7 @@ Requirements:
 File: [task_4/package.json](), [task_4/tsconfig.json](), [task_4/js/subjects/Cpp.ts](), [task_4/js/subjects/Java.ts](), [task_4/js/subjects/React.ts](), [task_4/js/subjects/Subject.ts](), [task_4/js/subjects/Teacher.ts]()
 </summary>
 
-Create a new directory task_4 and copy the above tsconfig.json and put this package.json in there
+Create a new directory `task_4` and copy the above `tsconfig.json` and put this `package.json` in there
 
 {
   "name": "task_4",
