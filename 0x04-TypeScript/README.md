@@ -19,7 +19,7 @@
 
 ## Resources
 <details>
-<summary><b><a href=" ">TypeScript in 5 minutes</a></b></summary><br>
+<summary><b><a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html">TypeScript in 5 minutes</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
@@ -27,7 +27,7 @@
 
 
 <details>
-<summary><b><a href=" ">TypeScript documentation</a></b></summary><br>
+<summary><b><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html">TypeScript documentation</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
