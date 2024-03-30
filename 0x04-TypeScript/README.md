@@ -547,7 +547,7 @@ File: [task_4/js/main.ts]()
 <details>
 <summary>
 
-### 11. 
+### 11. Brand convention & Nominal typing
 `mandatory`
 
 File: []()
