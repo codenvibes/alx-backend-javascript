@@ -503,7 +503,7 @@ In `task_4/js/subjects`:
 
 - Create a file `Teacher.ts` and write a `Teacher` interface in a namespace named `Subjects`.
     - the interface requires `firstName` and `lastName` as string
-- Create a file Subject.ts and write a Subject class in the same namespace named Subjects.
+- Create a file `Subject.ts` and write a `Subject` class in the same namespace named Subjects.
     - the class has one attribute teacher that implements the Teacher interface
     - the class has one setter method setTeacher that accepts a teacher in argument (and as setter, set the instance attribute teacher with it)
 - Create a file Cpp.ts and make the following modifications in the same namespace.
