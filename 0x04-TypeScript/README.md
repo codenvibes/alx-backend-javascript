@@ -293,7 +293,7 @@ Create the `DirectorInterface` interface with the 3 expected methods:
 - `getCoffeeBreak()` returning a string
 - `workDirectorTasks()` returning a string
 
-Create the TeacherInterface interface with the 3 expected methods:
+Create the `TeacherInterface` interface with the 3 expected methods:
 
 workFromHome() returning a string
 getCoffeeBreak() returning a string
