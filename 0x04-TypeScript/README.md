@@ -465,7 +465,7 @@ Requirements:
 <details>
 <summary>
 
-### 9. 
+### 9. Namespace & Declaration merging
 `mandatory`
 
 File: []()
