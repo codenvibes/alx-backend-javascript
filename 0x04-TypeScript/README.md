@@ -438,7 +438,7 @@ Create a `const` variable named `newRowID` with the type `RowID` and assign the 
 
 Next, create a `const` variable named `updatedRow` with the type `RowElement` and update `row` with an age field set to `23`
 
-Finally, call the updateRow and deleteRow commands.
+Finally, call the `updateRow` and `deleteRow` commands.
 
 Expected result:
 
