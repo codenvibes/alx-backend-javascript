@@ -287,7 +287,7 @@ Every variable should use TypeScript when possible.
 File: [task_2/js/main.ts](), [task_2/webpack.config.js](), [task_2/tsconfig.json](), [task_2/package.json]()
 </summary>
 
-Create the DirectorInterface interface with the 3 expected methods:
+Create the `DirectorInterface` interface with the 3 expected methods:
 
 workFromHome() returning a string
 getCoffeeBreak() returning a string
