@@ -181,7 +181,7 @@ Create a directory `task_1` and copy these configuration files into this folder:
 - Add the possibility to add any attribute to the Object like `contract(boolean)` without specifying the name of the attribute
 
 Example:
-
+```
 const teacher3: Teacher = {
   firstName: 'John',
   fullTimeEmployee: false,
@@ -199,7 +199,7 @@ console.log(teacher3);
 // fullTimeEmployee: false
 // lastName: "Doe"
 // location: "London"
-
+```
 </details>
 
 <details>
