@@ -459,12 +459,13 @@ File: [9-groceries_list.js]()
 </summary>
 
 Create a function named `groceriesList` that returns a map of groceries with the following items (name, quantity):
-
+```
 Apples, 10
 Tomatoes, 10
 Pasta, 1
 Rice, 1
 Banana, 5
+```
 Result:
 
 bob@dylan:~$ cat 9-main.js
