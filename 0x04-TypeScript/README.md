@@ -335,7 +335,7 @@ Director
 ### 6. Creating functions specific to employees
 `mandatory`
 
-File: []()
+File: [task_2/js/main.ts]()
 </summary>
 
 
