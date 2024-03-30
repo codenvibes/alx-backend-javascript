@@ -423,7 +423,7 @@ export function updateRow(rowId, row) {
 ```
 Write an ambient file within `task_3/js`, named `crud.d.ts` containing the type declarations for each crud function. At the top of the file import `RowID` and `RowElement` from `interface.ts`.
 
-In main.ts
+In `main.ts`
 
 At the top of the file create a triple slash directive that includes all the dependencies from crud.d.ts
 Import the rowID type and rowElement from interface.ts
