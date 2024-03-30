@@ -441,7 +441,7 @@ Next, create a `const` variable named `updatedRow` with the type `RowElement` an
 Finally, call the `updateRow` and `deleteRow` commands.
 
 Expected result:
-
+```
 const obj = {firstName: "Guillaume", lastName: "Salva"};
 CRUD.insertRow(obj)
 // Insert row {firstName: "Guillaume", lastName: "Salva"}
@@ -452,6 +452,7 @@ CRUD.updateRow(newRowID, updatedRow);
 
 CRUD.deleteRow(125);
 // Delete row id 125
+```
 Requirements:
 
 When running npm run build, no TypeScript error should be displayed.
