@@ -281,7 +281,7 @@ Every variable should use TypeScript when possible.
 <details>
 <summary>
 
-### 5. 
+### 5. Advanced types Part 1
 `mandatory`
 
 File: []()
