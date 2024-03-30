@@ -364,7 +364,7 @@ Getting to director tasks
 ### 7. String literal types
 `mandatory`
 
-File: []()
+File: [task_2/js/main.ts]()
 </summary>
 
 
