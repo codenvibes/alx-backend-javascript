@@ -467,7 +467,7 @@ Rice, 1
 Banana, 5
 ```
 Result:
-
+```
 bob@dylan:~$ cat 9-main.js
 import groceriesList from "./9-groceries_list.js";
 
@@ -483,7 +483,7 @@ Map {
   'Banana' => 5
 }
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
