@@ -332,7 +332,7 @@ Director
 <details>
 <summary>
 
-### 6. 
+### 6. Creating functions specific to employees
 `mandatory`
 
 File: []()
