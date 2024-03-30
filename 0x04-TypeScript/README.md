@@ -147,7 +147,7 @@ Click to show/hide file contents
 File: [task_0/js/main.ts](), [task_0/package.json](), [task_0/.eslintrc.js](), [task_0/tsconfig.json](), [task_0/webpack.config.js]()
 </summary>
 
-Copy the following configuration files (provided above) into the `task_0` directory: package.json, .eslintrc.js, tsconfig.json, webpack.config.js
+Copy the following configuration files (provided above) into the `task_0` directory: `package.json`, `.eslintrc.js`, `tsconfig.json`, `webpack.config.js`
 
 Write your code in the main.ts file:
 
