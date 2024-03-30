@@ -319,14 +319,14 @@ Create a function `createEmployee` with the following requirements:
 - if `salary` is a number and less than 500 - It should return a new `Teacher`. Otherwise it should return a `Director`
 
 Expected result:
-
+```
 console.log(createEmployee(200));
 Teacher
 console.log(createEmployee(1000));
 Director
 console.log(createEmployee('$500'));
 Director
-
+```
 </details>
 
 <details>
