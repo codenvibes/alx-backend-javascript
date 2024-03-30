@@ -295,9 +295,9 @@ Create the `DirectorInterface` interface with the 3 expected methods:
 
 Create the `TeacherInterface` interface with the 3 expected methods:
 
-- workFromHome() returning a string
-- getCoffeeBreak() returning a string
-- workTeacherTasks() returning a string
+- `workFromHome()` returning a string
+- `getCoffeeBreak()` returning a string
+- `workTeacherTasks()` returning a string
 
 Create a class Director that will implement DirectorInterface
 
