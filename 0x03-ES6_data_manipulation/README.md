@@ -500,7 +500,7 @@ Create a function named `updateUniqueItems` that returns an updated map for all 
 It should accept a map as an argument. The map it accepts for argument is similar to the map you create in the previous task.
 
 For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map) the error `Cannot process` should be thrown.
-
+```
 bob@dylan:~$ cat 10-main.js
 import updateUniqueItems from "./10-update_uniq_items.js";
 import groceriesList from "./9-groceries_list.js";
@@ -528,7 +528,7 @@ Map {
   'Banana' => 5
 }
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
