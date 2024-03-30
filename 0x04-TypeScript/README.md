@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x04-TypeScript/images/baea85b5e9a9fb5c36ec.png">
+<img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x04-TypeScript/images/baea85b5e9a9fb5c36ec.png" width=50%>
 
 
 <!-- <br>
