@@ -247,9 +247,9 @@ Write a function `printTeacher`:
 
 - It accepts two arguments `firstName` and `lastName`
 - It returns the first letter of the firstName and the full lastName
-- Example: printTeacher("John", "Doe") -> J. Doe
+- Example: `printTeacher("John", "Doe") -> J. Doe`
 
-Write an interface for the function named printTeacherFunction.
+Write an interface for the function named `printTeacherFunction`.
 
 </details>
 
