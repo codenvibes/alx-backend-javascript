@@ -346,7 +346,7 @@ Create a function named `createInt8TypedArray` that returns a new `ArrayBuffer` 
 It should accept three arguments: `length` (Number), `position` (Number), and `value` (Number).
 
 If adding the value is not possible the error `Position outside range` should be thrown.
-
+```
 bob@dylan:~$ cat 5-main.js
 import createInt8TypedArray from "./5-typed_arrays.js";
 
@@ -363,7 +363,7 @@ DataView {
   }
 }
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
