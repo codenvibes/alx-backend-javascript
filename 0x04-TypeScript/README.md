@@ -141,10 +141,10 @@ Click to show/hide file contents
 <details>
 <summary>
 
-### 0. 
+### 0. Creating an interface for a student
 `mandatory`
 
-File: []()
+File: [task_0/js/main.ts, task_0/package.json, task_0/.eslintrc.js, task_0/tsconfig.json, task_0/webpack.config.js]()
 </summary>
 
 
