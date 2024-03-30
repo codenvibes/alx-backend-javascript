@@ -425,7 +425,7 @@ Write an ambient file within `task_3/js`, named `crud.d.ts` containing the type 
 
 In `main.ts`
 
-- At the top of the file create a [triple slash directive](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) that includes all the dependencies from crud.d.ts
+- At the top of the file create a [triple slash directive](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) that includes all the dependencies from `crud.d.ts`
 - Import the rowID type and rowElement from interface.ts
 - Import everything from crud.js as CRUD
 
