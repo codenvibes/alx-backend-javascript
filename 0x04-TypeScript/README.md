@@ -340,7 +340,7 @@ File: [task_2/js/main.ts]()
 
 Write a function `isDirector`:
 
-- it accepts employee as an argument
+- it accepts `employee` as an argument
 - it will be used as a type predicate and if the employee is a director
 Write a function executeWork:
 
