@@ -361,7 +361,7 @@ Getting to director tasks
 <details>
 <summary>
 
-### 7. 
+### 7. String literal types
 `mandatory`
 
 File: []()
