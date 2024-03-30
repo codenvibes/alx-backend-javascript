@@ -350,12 +350,12 @@ Write a function `executeWork`:
 - if the employee is a Teacher, it will call `workTeacherTasks`
 
 Expected result:
-
+```
 executeWork(createEmployee(200));
 Getting to work
 executeWork(createEmployee(1000));
 Getting to director tasks
-
+```
 </details>
 
 <details>
