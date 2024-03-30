@@ -144,7 +144,7 @@ Click to show/hide file contents
 ### 0. Creating an interface for a student
 `mandatory`
 
-File: [task_0/js/main.ts, task_0/package.json, task_0/.eslintrc.js, task_0/tsconfig.json, task_0/webpack.config.js]()
+File: [task_0/js/main.ts](), [task_0/package.json](), [task_0/.eslintrc.js](), [task_0/tsconfig.json](), [task_0/webpack.config.js]()
 </summary>
 
 
