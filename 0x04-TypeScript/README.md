@@ -307,10 +307,11 @@ Create a class `Director` that will implement `DirectorInterface`
 
 Create a class `Teacher` that will implement `TeacherInterface`
 
-workFromHome should return the string Cannot work from home
-getCoffeeBreak should return the string Cannot have a break
-workTeacherTasks should return the string Getting to work
-Create a function createEmployee with the following requirements:
+- `workFromHome` should return the string `Cannot work from home`
+- `getCoffeeBreak` should return the string `Cannot have a break`
+- `workTeacherTasks` should return the string `Getting to work`
+
+Create a function `createEmployee` with the following requirements:
 
 It can return either a Director or a Teacher instance
 It accepts 1 arguments:
