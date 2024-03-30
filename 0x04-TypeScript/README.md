@@ -273,7 +273,7 @@ Write a Class named `StudentClass`:
 Requirements:
 
 - You can reuse the Webpack configuration from the previous exercise to compile the code.
-- When running npm run build, no TypeScript error should be displayed.
+- When running `npm run build`, no TypeScript error should be displayed.
 Every variable should use TypeScript when possible.
 
 </details>
