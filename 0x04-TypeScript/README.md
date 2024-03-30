@@ -169,7 +169,7 @@ Requirements:
 ### 1. Let's build a Teacher interface
 `mandatory`
 
-File: [task_1/js/main.ts](), task_1/webpack.config.js, task_1/tsconfig.json, [task_1/package.json]()
+File: [task_1/js/main.ts](), [task_1/webpack.config.js](), [task_1/tsconfig.json](), [task_1/package.json]()
 </summary>
 
 
