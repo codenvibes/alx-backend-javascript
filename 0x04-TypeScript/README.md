@@ -555,7 +555,7 @@ File: [task_5/js/main.ts](), [task_5/package.json](), [task_5/webpack.config.js]
 
 Create a directory `task_5` and copy these configuration files into the root of `task_5`: `package.json`, `tsconfig.json`, `webpack.config.js`
 
-Create two interfaces MajorCredits and MinorCredits in task_5/js/main.ts:
+Create two interfaces `MajorCredits` and `MinorCredits` in `task_5/js/main.ts`:
 
 Each interface defines a number named credits
 Add a brand property to each interface in order to uniquely identify each of them
