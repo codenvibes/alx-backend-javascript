@@ -534,7 +534,7 @@ bob@dylan:~$
 <details>
 <summary>
 
-### 11. 
+### 11. Weak link data structure
 `#advanced`
 
 File: []()
