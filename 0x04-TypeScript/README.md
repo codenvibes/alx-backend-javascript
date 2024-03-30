@@ -468,7 +468,7 @@ Requirements:
 ### 9. Namespace & Declaration merging
 `mandatory`
 
-File: [task_4/package.json, task_4/tsconfig.json, task_4/js/subjects/Cpp.ts, task_4/js/subjects/Java.ts, task_4/js/subjects/React.ts, task_4/js/subjects/Subject.ts, task_4/js/subjects/Teacher.ts]()
+File: [task_4/package.json](), [task_4/tsconfig.json](), [task_4/js/subjects/Cpp.ts](), [task_4/js/subjects/Java.ts](), [task_4/js/subjects/React.ts](), [task_4/js/subjects/Subject.ts](), [task_4/js/subjects/Teacher.ts]()
 </summary>
 
 
