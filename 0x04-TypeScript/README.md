@@ -425,9 +425,10 @@ Write an ambient file within `task_3/js`, named `crud.d.ts` containing the type 
 
 In `main.ts`
 
-At the top of the file create a triple slash directive that includes all the dependencies from crud.d.ts
-Import the rowID type and rowElement from interface.ts
-Import everything from crud.js as CRUD
+- At the top of the file create a triple slash directive that includes all the dependencies from crud.d.ts
+- Import the rowID type and rowElement from interface.ts
+- Import everything from crud.js as CRUD
+
 Create an object called row with the type RowElement with the fields set to these values:
 
 firstName: Guillaume
