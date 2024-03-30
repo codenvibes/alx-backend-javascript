@@ -205,10 +205,10 @@ console.log(teacher3);
 <details>
 <summary>
 
-### 2. 
+### 2. Extending the Teacher class
 `mandatory`
 
-File: []()
+File: [task_1/js/main.ts]()
 </summary>
 
 
