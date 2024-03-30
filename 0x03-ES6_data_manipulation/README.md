@@ -378,7 +378,7 @@ File: [6-set.js]()
 Create a function named `setFromArray` that returns a `Set` from an array.
 
 It accepts an argument (Array, of any kind of element).
-
+```
 bob@dylan:~$ cat 6-main.js
 import setFromArray from "./6-set.js";
 
@@ -388,7 +388,7 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 6-main.js 
 Set { 12, 32, 15, 78, 98 }
 bob@dylan:~$ 
-
+```
 </details>
 
 <details>
