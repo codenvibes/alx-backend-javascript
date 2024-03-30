@@ -537,7 +537,7 @@ bob@dylan:~$
 ### 11. Weak link data structure
 `#advanced`
 
-File: []()
+File: [100-weak.js]()
 </summary>
 
 
