@@ -503,7 +503,7 @@ In `task_4/js/subjects`:
 
 - Create a file `Teacher.ts` and write a `Teacher` interface in a namespace named `Subjects`.
     - the interface requires `firstName` and `lastName` as string
-- Create a file `Subject.ts` and write a `Subject` class in the same namespace named Subjects.
+- Create a file `Subject.ts` and write a `Subject` class in the same namespace named `Subjects`.
     - the class has one attribute `teacher` that implements the `Teacher` interface
     - the class has one setter method `setTeacher` that accepts a `teacher` in argument (and as setter, set the instance attribute `teacher` with it)
 - Create a file `Cpp.ts` and make the following modifications in the same namespace.
@@ -534,6 +534,13 @@ In `task_4/js/subjects`:
 File: [task_4/js/main.ts]()
 </summary>
 
+create and export a constant cpp for Cpp Subjects
+create and export a constant java for Java Subjects
+create and export a constant react for React Subjects
+create and export one Teacher object cTeacher with experienceTeachingC = 10
+for Cpp subject, log to the console C++, set cTeacher as the teacher, call the two methods getRequirements and getAvailableTeacher and print the strings they return
+for Java subject, log to the console Java, set cTeacher as the teacher, call the two methods getRequirements and getAvailableTeacher, and print the strings they return
+for React subject, log to the console React, set cTeacher as the teacher, call the two methods getRequirements and getAvailableTeacher, and print the strings they return
 
 </details>
 
