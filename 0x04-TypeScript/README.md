@@ -256,7 +256,7 @@ Write an interface for the function named `printTeacherFunction`.
 <details>
 <summary>
 
-### 4. 
+### 4. Writing a class
 `mandatory`
 
 File: []()
