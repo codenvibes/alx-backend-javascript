@@ -499,7 +499,7 @@ Create a new directory `task_4` and copy the above `tsconfig.json` and put this 
   }
 }
 ```
-In task_4/js/subjects:
+In `task_4/js/subjects`:
 
 Create a file Teacher.ts and write a Teacher interface in a namespace named Subjects.
 
