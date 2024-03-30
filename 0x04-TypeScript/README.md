@@ -455,10 +455,10 @@ CRUD.deleteRow(125);
 ```
 Requirements:
 
-When running npm run build, no TypeScript error should be displayed.
-Every variable should use TypeScript when possible.
-The main file and the ambient file should both import the types defined in the interface file.
-You can easily test your ambient file by looking at the intellisense of your IDE when using the 3rd party functions.
+- When running npm run build, no TypeScript error should be displayed.
+- Every variable should use TypeScript when possible.
+- The main file and the ambient file should both import the types defined in the interface file.
+- You can easily test your ambient file by looking at the intellisense of your IDE when using the 3rd party functions.
 
 </details>
 
