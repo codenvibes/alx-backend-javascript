@@ -431,9 +431,10 @@ In `main.ts`
 
 Create an object called row with the type RowElement with the fields set to these values:
 
-`firstName`: `Guillaume`
-`lastName`: `Salva`
-Create a const variable named newRowID with the type RowID and assign the value the insertRow command.
+- `firstName`: `Guillaume`
+- `lastName`: `Salva`
+
+Create a `const` variable named `newRowID` with the type `RowID` and assign the value the `insertRow` command.
 
 Next, create a const variable named updatedRow with the type RowElement and update row with an age field set to 23
 
