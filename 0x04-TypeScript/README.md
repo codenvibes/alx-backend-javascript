@@ -299,7 +299,7 @@ Create the `TeacherInterface` interface with the 3 expected methods:
 - `getCoffeeBreak()` returning a string
 - `workTeacherTasks()` returning a string
 
-Create a class Director that will implement DirectorInterface
+Create a class `Director` that will implement `DirectorInterface`
 
 workFromHome should return the string Working from home
 getToWork should return the string Getting a coffee break
