@@ -388,7 +388,7 @@ Teaching History
 ### 8. Ambient Namespaces
 `mandatory`
 
-File: [task_3/js/main.ts](), task_3/js/interface.ts, [task_3/js/crud.d.ts]()
+File: [task_3/js/main.ts](), [task_3/js/interface.ts](), [task_3/js/crud.d.ts]()
 </summary>
 
 
