@@ -385,10 +385,10 @@ Teaching History
 <details>
 <summary>
 
-### 8. 
+### 8. Ambient Namespaces
 `mandatory`
 
-File: []()
+File: [task_3/js/main.ts, task_3/js/interface.ts, task_3/js/crud.d.ts]()
 </summary>
 
 
