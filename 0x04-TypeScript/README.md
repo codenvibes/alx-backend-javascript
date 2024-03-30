@@ -284,7 +284,7 @@ Every variable should use TypeScript when possible.
 ### 5. Advanced types Part 1
 `mandatory`
 
-File: [task_2/js/main.ts, task_2/webpack.config.js, task_2/tsconfig.json, task_2/package.json]()
+File: [task_2/js/main.ts](), task_2/webpack.config.js, task_2/tsconfig.json, [task_2/package.json]()
 </summary>
 
 
