@@ -372,13 +372,14 @@ Write a String literal type named Subjects allowing a variable to have the value
 - it takes `todayClass` as an argument
 - it will return the string `Teaching Math` if `todayClass` is `Math`
 - it will return the string `Teaching History` if `todayClass` is `History`
-Expected result:
 
+Expected result:
+```
 teachClass('Math');
 Teaching Math
 teachClass('History');
 Teaching History
-
+```
 </details>
 
 <details>
