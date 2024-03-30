@@ -214,7 +214,7 @@ File: [task_1/js/main.ts]()
 Write an interface named `Directors` that extends `Teacher`. It requires an attribute named `numberOfReports(number)`
 
 Example:
-
+```
 const director1: Directors = {
   firstName: 'John',
   lastName: 'Doe',
@@ -231,7 +231,7 @@ console.log(director1);
 // lastName: "Doe"
 // location: "London"
 // numberOfReports: 17
-
+```
 </details>
 
 <details>
