@@ -262,7 +262,7 @@ Write an interface for the function named `printTeacherFunction`.
 File: [task_1/js/main.ts]()
 </summary>
 
-Write a Class named StudentClass:
+Write a Class named `StudentClass`:
 
 - The constructor accepts firstName(string) and lastName(string) arguments
 - The class has a method named workOnHomework that return the string Currently working
