@@ -1,7 +1,7 @@
 <h1 align="center"><b>0X05. NODEJS BASICS</b></h1>
 <div align="center"><code>Back-end</code> <code>JavaScript</code> <code>ES6</code> <code>NodeJS</code> <code>ExpressJS</code></div>
 
-<br><div align=""><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x05-Node_JS_basic/images/82692897e15d9f03256f.jpeg"></div><br>
+<br><div align=""><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x05-Node_JS_basic/images/82692897e15d9f03256f.jpeg"></div>
 
 <!-- <br>
 <hr>
