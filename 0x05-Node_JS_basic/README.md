@@ -69,6 +69,42 @@
 <details>
 <summary><b><a href=" "> </a>run javascript using NodeJS</b></summary><br>
 
+**Node.js** is a JavaScript runtime environment
+
+A **runtime environment** provides the necessary infrastructure and resources for executing programs written in a specific programming language
+
+To run JavaScript code using Node.js, you first need to have Node.js installed on your computer. Once you have Node.js installed, follow these steps:
+
+1. **Write Your JavaScript Code**: Create a JavaScript file (e.g., `script.js`) using a text editor of your choice and write your JavaScript code in it.
+
+   ```javascript
+   // script.js
+   console.log("Hello, world!");
+   ```
+
+2. **Open Terminal or Command Prompt**: Open your terminal or command prompt.
+
+3. **Navigate to the Directory**: Use the `cd` command to navigate to the directory where your JavaScript file is located.
+
+   ```
+   cd path/to/your/directory
+   ```
+
+4. **Run Your JavaScript File with Node.js**: Type the following command to run your JavaScript file with Node.js:
+
+   ```
+   node script.js
+   ```
+
+   Replace `script.js` with the name of your JavaScript file if it's different.
+
+5. **View Output**: After running the command, you should see the output of your JavaScript code in the terminal:
+
+   ```
+   Hello, world!
+   ```
+
+That's it! Your JavaScript code has been executed using Node.js, and you can see the output in the terminal. You can write more complex scripts and execute them in the same way.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
