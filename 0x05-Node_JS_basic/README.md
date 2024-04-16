@@ -240,6 +240,39 @@ That's how you can use the `process` object to access command-line arguments and
 <details>
 <summary><b><a href=" "> </a>create a small HTTP server using Node JS</b></summary><br>
 
+Creating a small HTTP server using Node.js is straightforward. You can use Node.js's built-in `http` module to create an HTTP server. Here's a basic example:
+
+```javascript
+const http = require('http');
+
+// Create an HTTP server
+const server = http.createServer((req, res) => {
+  // Set the response HTTP header with HTTP status and Content type
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  
+  // Send the response body "Hello, World!"
+  res.end('Hello, World!\n');
+});
+
+// Define the port number
+const port = 3000;
+
+// Start the server and listen on the defined port
+server.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}/`);
+});
+```
+
+In this code:
+
+- We import the `http` module.
+- We create an HTTP server using the `http.createServer()` method, passing it a callback function that will be called each time a request is made to the server. The callback function takes two arguments: `req` (the request object) and `res` (the response object).
+- Inside the callback function, we set the HTTP response header using `res.writeHead()`, specifying the status code `200` for "OK" and the content type as `text/plain`.
+- We send the response body using `res.end()`, sending "Hello, World!" to the client.
+- We define the port number (`3000` in this example) on which the server will listen for incoming requests.
+- We start the server using `server.listen()`, specifying the port number and providing a callback function to be executed once the server starts successfully.
+
+Now, if you run this script using Node.js, you'll have a small HTTP server listening on port `3000` that responds with "Hello, World!" to any incoming requests. You can access it by opening a web browser and navigating to `http://localhost:3000/`.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
