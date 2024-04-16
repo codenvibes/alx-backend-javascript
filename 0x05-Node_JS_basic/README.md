@@ -189,6 +189,49 @@ That's it! You've successfully used the `fs` module to read a file in Node.js. Y
 <details>
 <summary><b><a href=" "> </a>use <code>process</code> to access command line arguments and the environment</b></summary><br>
 
+You can use the `process` object in Node.js to access command-line arguments and the environment variables. Here's how you can do it:
+
+1. **Access Command-Line Arguments**:
+   
+   Command-line arguments are stored in the `process.argv` array. The first two elements of this array are:
+
+   - `process.argv[0]`: The path to the Node.js executable.
+   - `process.argv[1]`: The path to the JavaScript file being executed.
+
+   Additional command-line arguments start from index 2.
+
+   ```javascript
+   // Assuming you run: node script.js arg1 arg2 arg3
+   console.log('Arguments:', process.argv);
+   // Output: ['node', '/path/to/script.js', 'arg1', 'arg2', 'arg3']
+   
+   // To access individual arguments
+   const arg1 = process.argv[2];
+   const arg2 = process.argv[3];
+   ```
+
+2. **Access Environment Variables**:
+
+   Environment variables can be accessed through the `process.env` object.
+
+   ```javascript
+   console.log('Environment variables:', process.env);
+   // Output: Object containing all environment variables
+   
+   // To access a specific environment variable
+   const NODE_ENV = process.env.NODE_ENV;
+   console.log('NODE_ENV:', NODE_ENV);
+   ```
+
+   You can also set environment variables directly in your terminal before running your Node.js script:
+
+   ```bash
+   $ NODE_ENV=production node script.js
+   ```
+
+   In this example, `NODE_ENV` will be set to `'production'` in the environment accessible to your Node.js script.
+
+That's how you can use the `process` object to access command-line arguments and environment variables in Node.js. It's quite handy for configuring your application dynamically based on external factors.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
