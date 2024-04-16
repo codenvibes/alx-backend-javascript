@@ -645,6 +645,7 @@ File: [full_server/utils.js](), [full_server/controllers/AppController.js](), [f
 
 <p>Since you have used ES6 and Babel in the past projects, let’s use <code>babel-node</code> to allow to use ES6 functions like <code>import</code> or <code>export</code>.</p>
 
+### 8.1 Organize the structure of the server
 <ul>
 <li>Create 2 directories within:
 
@@ -662,6 +663,7 @@ File: [full_server/utils.js](), [full_server/controllers/AppController.js](), [f
 </ul></li>
 </ul>
 
+### 8.2 Write the App controller
 <p>Inside the file <code>full_server/controllers/AppController.js</code>:</p>
 
 <ul>
@@ -669,6 +671,7 @@ File: [full_server/utils.js](), [full_server/controllers/AppController.js](), [f
 <li>The method accepts <code>request</code> and <code>response</code> as argument. It returns a 200 status and the message <code>Hello Holberton School!</code></li>
 </ul>
 
+### 8.3 Write the Students controller
 <p>Inside the file <code>full_server/controllers/StudentsController.js</code>, create a class named <code>StudentsController</code>. Add two static methods:</p>
 
 <p>The first one is <code>getAllStudents</code>:</p>
@@ -695,6 +698,7 @@ File: [full_server/utils.js](), [full_server/controllers/AppController.js](), [f
 <li>If the database is not available, it should return a status 500 and the error message <code>Cannot load the database</code></li>
 </ul>
 
+### 8.4 Write the routes
 <p>Inside the file <code>full_server/routes/index.js</code>:</p>
 
 <ul>
@@ -702,6 +706,7 @@ File: [full_server/utils.js](), [full_server/controllers/AppController.js](), [f
 <li>Link the route <code>/students</code>  and <code>/students/:major</code>to the <code>StudentsController</code></li>
 </ul>
 
+### 8.5 Write the server reusing everything you created
 <p>Inside the file named <code>full_server/server.js</code>, create a small Express server:</p>
 
 <ul>
@@ -709,6 +714,7 @@ File: [full_server/utils.js](), [full_server/controllers/AppController.js](), [f
 <li>It should use the port <code>1245</code></li>
 </ul>
 
+### 8.6 Update package.json (if you are running it from outside the folder full_server)
 <p>If you are starting node from outside of the folder <code>full_server</code>, you will have to update the command <code>dev</code> by: <code>nodemon --exec babel-node --presets babel-preset-env ./full_server/server.js ./database.csv</code></p>
 
 <p><strong>Warning:</strong></p>
