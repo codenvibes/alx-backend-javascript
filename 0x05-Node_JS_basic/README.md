@@ -113,6 +113,39 @@ That's it! Your JavaScript code has been executed using Node.js, and you can see
 <details>
 <summary><b><a href=" "> </a>use NodeJS modules</b></summary><br>
 
+Using Node.js modules is straightforward and follows the CommonJS module system. Here's a step-by-step guide on how to use Node.js modules:
+
+1. **Create a Module**: Write your module in a separate JavaScript file. Modules in Node.js are just regular JavaScript files. For example, let's create a module named `myModule.js`:
+
+   ```javascript
+   // myModule.js
+   module.exports = {
+       greet: function() {
+           console.log("Hello from my module!");
+       }
+   };
+   ```
+
+   In this example, `module.exports` is used to export an object with a `greet` function.
+
+2. **Require the Module**: In your main JavaScript file, require the module using the `require` function. This function takes the path to the module file as its argument.
+
+   ```javascript
+   // app.js
+   const myModule = require('./myModule');
+
+   myModule.greet(); // Output: Hello from my module!
+   ```
+
+   In this example, `require('./myModule')` imports the module defined in `myModule.js`. The `require` function returns the object exported from `myModule.js`.
+
+3. **Use the Exported Functions or Variables**: Once the module is required, you can access the exported functions or variables using the object returned by `require`.
+
+   ```javascript
+   myModule.greet(); // Call the exported function from the module
+   ```
+
+That's it! You've successfully used a Node.js module. You can create more complex modules by exporting multiple functions or variables, and you can also import modules from npm or built-in Node.js modules using `require`. Remember to provide the correct path to the module file when using `require`, whether it's a relative or absolute path.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
