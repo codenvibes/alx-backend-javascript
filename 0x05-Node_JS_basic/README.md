@@ -1,6 +1,11 @@
 <h1 align="center"><b>0X05. NODEJS BASICS</b></h1>
 <div align="center"><code>Back-end</code> <code>JavaScript</code> <code>ES6</code> <code>NodeJS</code> <code>ExpressJS</code></div>
 
+<!-- <br>
+<hr>
+<h3><a href=>Notes</a></h3>
+<hr> -->
+
 
 <!--==================================================-->
 <br>
@@ -59,17 +64,80 @@
 <br>
 
 ## Learning Objectives
-<ul>
-<li>run javascript using NodeJS</li>
-<li>use NodeJS modules</li>
-<li>use specific Node JS module to read files</li>
-<li>use <code>process</code> to access command line arguments and the environment</li>
-<li>create a small HTTP server using Node JS</li>
-<li>create a small HTTP server using Express JS</li>
-<li>create advanced routes with Express JS</li>
-<li>use ES6 with Node JS with Babel-node</li>
-<li>use Nodemon to develop faster</li>
-</ul>
+<details>
+<summary><b><a href=" "> </a>run javascript using NodeJS</b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+<details>
+<summary><b><a href=" "> </a>use NodeJS modules</b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+<details>
+<summary><b><a href=" "> </a>use specific Node JS module to read files</b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+<details>
+<summary><b><a href=" "> </a>use <code>process</code> to access command line arguments and the environment</b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+<details>
+<summary><b><a href=" "> </a>create a small HTTP server using Node JS</b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+<details>
+<summary><b><a href=" "> </a>create a small HTTP server using Express JS</b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+<details>
+<summary><b><a href=" "> </a>create advanced routes with Express JS</b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+<details>
+<summary><b><a href=" "> </a>use ES6 with Node JS with Babel-node</b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+<details>
+<summary><b><a href=" "> </a>use Nodemon to develop faster</b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+
+<br>
 
 <!--==================================================-->
 <br>
