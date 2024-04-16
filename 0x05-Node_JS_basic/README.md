@@ -714,7 +714,7 @@ File: [full_server/utils.js](), [full_server/controllers/AppController.js](), [f
 <li>It should use the port <code>1245</code></li>
 </ul>
 
-### 8.6 Update package.json (if you are running it from outside the folder full_server)
+### 8.6 Update `package.json` (if you are running it from outside the folder `full_server`)
 <p>If you are starting node from outside of the folder <code>full_server</code>, you will have to update the command <code>dev</code> by: <code>nodemon --exec babel-node --presets babel-preset-env ./full_server/server.js ./database.csv</code></p>
 
 <p><strong>Warning:</strong></p>
