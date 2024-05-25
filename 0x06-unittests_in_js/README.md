@@ -55,7 +55,7 @@
 
 
 <details>
-<summary><b><a href="https://intranet.alxswe.com/rltoken/HwB8gViDosy8znk7H9i4Pw">How to Test NodeJS Apps using Mocha, Chai and SinonJS</a></b></summary><br>
+<summary><b><a href="https://www.digitalocean.com/community/tutorials/how-to-test-nodejs-apps-using-mocha-chai-and-sinonjs">How to Test NodeJS Apps using Mocha, Chai and SinonJS</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
