@@ -3,7 +3,6 @@
 
 <br>
 <div align="center"><img alt="" src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x06-unittests_in_js/images/90f79a666e174e6c4ffc.jpeg"></div>
-<br>
 
 <!-- <br>
 <hr>
