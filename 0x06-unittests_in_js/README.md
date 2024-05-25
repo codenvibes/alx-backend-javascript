@@ -47,7 +47,7 @@
 
 
 <details>
-<summary><b><a href="https://intranet.alxswe.com/rltoken/FcJfzr2jUJSj8Xp3z9L1wg">Request</a></b></summary><br>
+<summary><b><a href="https://www.npmjs.com/package/request">Request</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
