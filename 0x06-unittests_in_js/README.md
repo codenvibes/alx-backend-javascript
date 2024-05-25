@@ -15,7 +15,7 @@
 
 ## Resources
 <details>
-<summary><b><a href="https://intranet.alxswe.com/rltoken/Gx5mfX41__cc2hwepcl0aA">Mocha documentation</a></b></summary><br>
+<summary><b><a href="https://mochajs.org/">Mocha documentation</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
