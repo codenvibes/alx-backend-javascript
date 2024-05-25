@@ -23,7 +23,7 @@
 
 
 <details>
-<summary><b><a href="https://intranet.alxswe.com/rltoken/Rs3SrSdr9OxPp-4099A0cg">Chai</a></b></summary><br>
+<summary><b><a href="https://www.chaijs.com/api/">Chai</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
