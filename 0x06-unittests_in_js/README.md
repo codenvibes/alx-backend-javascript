@@ -1,6 +1,10 @@
 <h1 align="center"><b>0X06. UNITTESTS IN JS</b></h1>
 <div align="center"><code>UnitTests</code> <code>Back-end</code> <code>JavaScript</code> <code>ES6</code> <code>NodeJS</code> <code>ExpressJS</code> <code>Mocha</code></div>
 
+<br>
+<div align="center"><img alt="" src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x06-unittests_in_js/images/90f79a666e174e6c4ffc.jpeg"></div>
+<br>
+
 <!-- <br>
 <hr>
 <h3><a href=>Notes</a></h3>
