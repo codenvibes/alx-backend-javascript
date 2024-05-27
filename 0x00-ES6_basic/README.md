@@ -734,6 +734,177 @@ Template literals in ES6 offer an enhanced way to work with strings in JavaScrip
 <details>
 <summary><b><a href=" "> </a>Object creation and their properties in ES6</b></summary><br>
 
+In ES6 (ECMAScript 2015), object creation and properties received several enhancements, making it easier and more concise to work with objects. Here are some key features and techniques for creating and manipulating objects in ES6:
+
+### 1. Object Literal Enhancements
+
+#### Shorthand Property Names
+
+When the property name is the same as the variable name, you can use shorthand syntax to create objects more concisely.
+
+**Before ES6:**
+```javascript
+const name = 'Alice';
+const age = 25;
+
+const person = {
+  name: name,
+  age: age
+};
+```
+
+**With ES6:**
+```javascript
+const name = 'Alice';
+const age = 25;
+
+const person = { name, age };
+```
+
+#### Method Definitions
+
+ES6 allows you to define methods in objects without using the `function` keyword.
+
+**Before ES6:**
+```javascript
+const person = {
+  name: 'Alice',
+  age: 25,
+  greet: function() {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+};
+```
+
+**With ES6:**
+```javascript
+const person = {
+  name: 'Alice',
+  age: 25,
+  greet() {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+};
+```
+
+#### Computed Property Names
+
+ES6 allows you to use expressions as property names inside object literals by using square brackets `[]`.
+
+**Example:**
+```javascript
+const prop = 'name';
+const person = {
+  [prop]: 'Alice',
+  ['greet' + 'ing']() {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+};
+
+console.log(person.name); // Output: Alice
+person.greeting(); // Output: Hello, my name is Alice
+```
+
+### 2. Object Destructuring
+
+Object destructuring allows you to extract properties from objects and assign them to variables.
+
+**Example:**
+```javascript
+const person = { name: 'Alice', age: 25 };
+
+const { name, age } = person;
+
+console.log(name); // Output: Alice
+console.log(age); // Output: 25
+```
+
+You can also use destructuring to assign to new variable names:
+
+```javascript
+const person = { name: 'Alice', age: 25 };
+
+const { name: personName, age: personAge } = person;
+
+console.log(personName); // Output: Alice
+console.log(personAge); // Output: 25
+```
+
+### 3. Default Values
+
+You can assign default values to properties in case they are `undefined`.
+
+**Example:**
+```javascript
+const person = { name: 'Alice' };
+
+const { name, age = 30 } = person;
+
+console.log(name); // Output: Alice
+console.log(age); // Output: 30
+```
+
+### 4. Spread Operator
+
+The spread operator (`...`) allows you to spread the properties of an object into another object.
+
+**Example:**
+```javascript
+const person = { name: 'Alice', age: 25 };
+const job = { title: 'Developer', company: 'Tech Co.' };
+
+const employee = { ...person, ...job };
+
+console.log(employee);
+// Output: { name: 'Alice', age: 25, title: 'Developer', company: 'Tech Co.' }
+```
+
+The spread operator can also be used to create a shallow copy of an object:
+
+```javascript
+const person = { name: 'Alice', age: 25 };
+
+const personCopy = { ...person };
+
+console.log(personCopy);
+// Output: { name: 'Alice', age: 25 }
+```
+
+### 5. Object.assign
+
+`Object.assign` is used to copy the values of all enumerable own properties from one or more source objects to a target object.
+
+**Example:**
+```javascript
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+
+const returnedTarget = Object.assign(target, source);
+
+console.log(returnedTarget); // Output: { a: 1, b: 4, c: 5 }
+console.log(target); // Output: { a: 1, b: 4, c: 5 } (target is also modified)
+```
+
+### 6. Object Property Enumeration
+
+ES6 introduced new methods for enumerating properties of objects.
+
+- **Object.keys()**: Returns an array of a given object's property names.
+- **Object.values()**: Returns an array of a given object's property values.
+- **Object.entries()**: Returns an array of a given object's key-value pairs.
+
+**Example:**
+```javascript
+const person = { name: 'Alice', age: 25 };
+
+console.log(Object.keys(person)); // Output: ['name', 'age']
+console.log(Object.values(person)); // Output: ['Alice', 25]
+console.log(Object.entries(person)); // Output: [['name', 'Alice'], ['age', 25]]
+```
+
+### Summary
+
+ES6 introduced several enhancements to object creation and manipulation, including shorthand property names, method definitions, computed property names, destructuring, default values, the spread operator, `Object.assign`, and new property enumeration methods. These features improve code readability, conciseness, and maintainability, making JavaScript objects easier to work with.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
