@@ -9,7 +9,7 @@
 
 ## Concepts
 <details>
-<summary><b><a href="">JavaScript programming</a></b></summary><br>
+<summary><b><a href="https://intranet.alxswe.com/concepts/852">JavaScript programming</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
