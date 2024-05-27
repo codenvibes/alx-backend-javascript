@@ -584,6 +584,148 @@ Both rest and spread syntax enhance the flexibility and readability of JavaScrip
 <details>
 <summary><b><a href=" "> </a>String templating in ES6</b></summary><br>
 
+String templating in ES6, also known as template literals, provides a more powerful and flexible way to create and manipulate strings compared to traditional string concatenation. Template literals are enclosed by backticks (`) and can include placeholders for embedding expressions.
+
+### Key Features of Template Literals:
+
+1. **Multiline Strings**: Template literals allow strings to span multiple lines without the need for concatenation or escape sequences.
+2. **Interpolation**: You can embed expressions within a string using `${expression}` syntax.
+3. **Tagged Templates**: Allows you to modify the output of template literals using a function.
+
+### Basic Syntax:
+
+```javascript
+const template = `string text`;
+const templateWithInterpolation = `string text ${expression} string text`;
+```
+
+### Examples:
+
+#### Multiline Strings:
+
+With traditional strings, multiline strings require escape sequences:
+
+```javascript
+const oldWay = "This is line 1.\nThis is line 2.";
+console.log(oldWay);
+// Output:
+// This is line 1.
+// This is line 2.
+```
+
+With template literals, you can write multiline strings directly:
+
+```javascript
+const newWay = `This is line 1.
+This is line 2.`;
+console.log(newWay);
+// Output:
+// This is line 1.
+// This is line 2.
+```
+
+#### String Interpolation:
+
+String interpolation allows embedding expressions within strings easily:
+
+```javascript
+const name = 'Alice';
+const age = 30;
+
+const greeting = `Hello, my name is ${name} and I am ${age} years old.`;
+console.log(greeting);
+// Output: Hello, my name is Alice and I am 30 years old.
+```
+
+Expressions can be anything that evaluates to a value, including arithmetic operations, function calls, and object property access:
+
+```javascript
+const a = 5;
+const b = 10;
+
+const sum = `The sum of ${a} and ${b} is ${a + b}.`;
+console.log(sum);
+// Output: The sum of 5 and 10 is 15.
+
+const user = { name: 'Bob', age: 25 };
+const userInfo = `User's name is ${user.name} and age is ${user.age}.`;
+console.log(userInfo);
+// Output: User's name is Bob and age is 25.
+```
+
+#### Tagged Templates:
+
+Tagged templates allow you to parse template literals with a function. The tag function receives an array of string literals and the interpolated values as arguments.
+
+```javascript
+function tag(strings, ...values) {
+  console.log(strings); // Array of string literals
+  console.log(values);  // Array of interpolated values
+  return 'Tagged template output';
+}
+
+const taggedResult = tag`Hello, ${name}! You are ${age} years old.`;
+console.log(taggedResult);
+// Output:
+// [ 'Hello, ', '! You are ', ' years old.' ]
+// [ 'Alice', 30 ]
+// Tagged template output
+```
+
+Tagged templates are useful for advanced scenarios such as sanitizing input, formatting data, or implementing custom templating logic.
+
+### Use Cases:
+
+1. **Dynamic Content Generation**:
+   ```javascript
+   const product = 'laptop';
+   const price = 1200;
+   const message = `The price of the ${product} is $${price}.`;
+   console.log(message);
+   // Output: The price of the laptop is $1200.
+   ```
+
+2. **Multiline HTML Strings**:
+   ```javascript
+   const listItems = ['Apple', 'Banana', 'Cherry'];
+   const listHtml = `
+     <ul>
+       ${listItems.map(item => `<li>${item}</li>`).join('')}
+     </ul>
+   `;
+   console.log(listHtml);
+   // Output:
+   // <ul>
+   //   <li>Apple</li>
+   //   <li>Banana</li>
+   //   <li>Cherry</li>
+   // </ul>
+   ```
+
+3. **Tagged Templates for Escaping HTML**:
+   ```javascript
+   function escapeHtml(strings, ...values) {
+     return strings.reduce((result, string, i) => {
+       const value = values[i - 1];
+       const escapedValue = String(value)
+         .replace(/&/g, '&amp;')
+         .replace(/</g, '&lt;')
+         .replace(/>/g, '&gt;')
+         .replace(/"/g, '&quot;')
+         .replace(/'/g, '&#39;');
+       return result + escapedValue + string;
+     });
+   }
+
+   const userInput = '<script>alert("hacked")</script>';
+   const safeHtml = escapeHtml`<div>${userInput}</div>`;
+   console.log(safeHtml);
+   // Output: <div>&lt;script&gt;alert(&quot;hacked&quot;)&lt;/script&gt;</div>
+   ```
+
+### Summary:
+
+Template literals in ES6 offer an enhanced way to work with strings in JavaScript. They provide multiline strings, string interpolation, and tagged templates, making string manipulation more powerful and convenient. This feature greatly improves code readability and maintainability by simplifying the syntax and reducing the need for concatenation.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
