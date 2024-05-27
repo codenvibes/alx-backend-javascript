@@ -9,7 +9,15 @@
 
 ## Concepts
 <details>
-<summary><b><a href="https://www.w3schools.com/js/js_es6.asp">ECMAScript 6 - ECMAScript 2015</a></b></summary><br>
+<summary><b><a href="">JavaScript programming</a></b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
+
+<details>
+<summary><b><a href=""></a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
