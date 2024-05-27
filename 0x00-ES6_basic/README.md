@@ -208,6 +208,60 @@ These features and more have greatly enhanced the power, flexibility, and readab
 <details>
 <summary><b><a href=" "> </a>The difference between a constant and a variable</b></summary><br>
 
+The main difference between a constant and a variable lies in their mutability:
+
+1. **Variable**:
+   - **Definition**: A variable is a storage location identified by a variable name that can hold data which can be changed during the program execution.
+   - **Declaration in JavaScript**: Variables are declared using the `let` or `var` keywords.
+   - **Example**:
+     ```javascript
+     let count = 10;
+     count = 15; // The value of count is changed to 15.
+     ```
+
+2. **Constant**:
+   - **Definition**: A constant is a storage location identified by a constant name that holds data which cannot be changed once it has been assigned.
+   - **Declaration in JavaScript**: Constants are declared using the `const` keyword.
+   - **Example**:
+     ```javascript
+     const MAX_USERS = 100;
+     // MAX_USERS = 150; // This will cause an error because the value of MAX_USERS cannot be changed.
+     ```
+
+### Key Differences:
+
+- **Mutability**:
+  - Variables can be reassigned new values after their initial assignment.
+  - Constants cannot be reassigned; their value remains fixed once set.
+
+- **Scope**:
+  - Both `let` and `const` are block-scoped, meaning they are only accessible within the block in which they are defined.
+  - Variables declared with `var` are function-scoped or globally-scoped if not within a function.
+
+- **Initialization**:
+  - Variables declared with `let` or `var` can be declared without initialization.
+  - Constants must be initialized at the time of declaration.
+
+### Examples:
+
+**Variable:**
+```javascript
+let name = 'Alice';
+console.log(name); // Output: Alice
+name = 'Bob';
+console.log(name); // Output: Bob
+```
+
+**Constant:**
+```javascript
+const PI = 3.14159;
+console.log(PI); // Output: 3.14159
+// PI = 3.14; // This line would throw an error because PI is a constant and cannot be reassigned.
+```
+
+### Practical Use:
+- Use **variables** when the value needs to change over time or based on conditions within the program.
+- Use **constants** for values that should remain the same throughout the program, ensuring the integrity and clarity of the code by preventing accidental reassignment.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
