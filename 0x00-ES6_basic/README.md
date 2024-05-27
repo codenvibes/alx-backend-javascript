@@ -464,7 +464,7 @@ Arrow functions offer a concise syntax and lexical `this` binding, making them e
 
 
 <details>
-<summary><b><a href=" "> </a>Rest and spread function parameters</b></summary><br>
+<summary><b><a href=" "> </a>Rest and spread function parameters</b></summary>
 
 ### Rest Parameters
 
