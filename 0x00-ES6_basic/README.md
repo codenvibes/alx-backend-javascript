@@ -352,7 +352,7 @@ Block-scoped variables (`let` and `const`) enhance the clarity, safety, and robu
 
 
 <details>
-<summary><b><a href=" "> </a>Arrow functions and function parameters default to them</b></summary><br>
+<summary><b><a href=" "> </a>Arrow functions and function parameters default to them</b></summary>
 
 ### Arrow Functions
 
