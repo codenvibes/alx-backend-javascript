@@ -105,6 +105,99 @@ ES6, also known as ECMAScript 2015, is the sixth edition of the ECMAScript langu
 <details>
 <summary><b><a href=" "> </a>New features introduced in ES6</b></summary><br>
 
+Some of the key features and enhancements introduced in ES6 include:
+
+1. **Arrow Functions**: A shorter syntax for writing functions.
+   ```javascript
+   const add = (a, b) => a + b;
+   ```
+
+2. **Classes**: A new way to create objects and deal with inheritance, making it more similar to other object-oriented programming languages.
+   ```javascript
+   class Person {
+     constructor(name) {
+       this.name = name;
+     }
+
+     greet() {
+       return `Hello, ${this.name}!`;
+     }
+   }
+   ```
+
+3. **Template Literals**: Enhanced string literals that allow for embedded expressions and multi-line strings.
+   ```javascript
+   const name = 'World';
+   console.log(`Hello, ${name}!`);
+   ```
+
+4. **Destructuring Assignment**: A syntax for extracting values from arrays or properties from objects into distinct variables.
+   ```javascript
+   const [a, b] = [1, 2];
+   const {name, age} = {name: 'Alice', age: 25};
+   ```
+
+5. **Default Parameters**: Allowing functions to have default values for parameters.
+   ```javascript
+   function greet(name = 'World') {
+     return `Hello, ${name}!`;
+   }
+   ```
+
+6. **Let and Const**: New ways to declare variables, with `let` being block-scoped and `const` for constants.
+   ```javascript
+   let count = 1;
+   const MAX = 10;
+   ```
+
+7. **Modules**: A standardized way to organize and import/export code across files.
+   ```javascript
+   // In file myModule.js
+   export const myValue = 42;
+
+   // In another file
+   import { myValue } from './myModule.js';
+   ```
+
+8. **Promises**: A native way to handle asynchronous operations, which makes it easier to work with asynchronous code.
+   ```javascript
+   let promise = new Promise((resolve, reject) => {
+     // async operation
+   });
+
+   promise.then(result => {
+     // handle result
+   }).catch(error => {
+     // handle error
+   });
+   ```
+
+9. **Enhanced Object Literals**: Simplified syntax for defining objects, especially when the property names are dynamic.
+   ```javascript
+   const prop = 'name';
+   const obj = {
+     [prop]: 'Alice',
+     greet() {
+       return `Hello, ${this.name}!`;
+     }
+   };
+   ```
+
+10. **Iterators and Generators**: New mechanisms for working with sequences of values, useful for tasks like defining custom iteration behaviors.
+    ```javascript
+    function* idGenerator() {
+      let id = 0;
+      while (true) {
+        yield id++;
+      }
+    }
+
+    const gen = idGenerator();
+    console.log(gen.next().value); // 0
+    console.log(gen.next().value); // 1
+    ```
+
+These features and more have greatly enhanced the power, flexibility, and readability of JavaScript code, making ES6 a pivotal version in the evolution of the language.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
