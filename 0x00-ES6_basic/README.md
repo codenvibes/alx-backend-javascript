@@ -96,7 +96,9 @@
 <details>
 <summary><b><a href=" "> </a>What ES6 is</b></summary><br>
 
-ES6, also known as ECMAScript 2015, is the sixth edition of the ECMAScript language specification. ECMAScript is the standard upon which JavaScript is based. ES6 introduced a significant update to JavaScript, adding many new features and improvements to the language, which have since become foundational for modern JavaScript development. 
+ES6, also known as ECMAScript 2015, is the sixth edition of the ECMAScript language specification. ECMAScript is the standard upon which JavaScript is based. ES6 introduced a significant update to JavaScript, adding many new features and improvements to the language, which have since become foundational for modern JavaScript development.
+
+ECMA stands for the **European Computer Manufacturers Association**. It is an industry association dedicated to the standardization of information and communication systems. ECMA is responsible for developing standards like ECMAScript, which is the specification upon which JavaScript is based. The organization's goal is to ensure interoperability and uniformity across various computer systems and technologies.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
