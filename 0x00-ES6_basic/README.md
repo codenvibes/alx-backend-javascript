@@ -911,7 +911,7 @@ ES6 introduced several enhancements to object creation and manipulation, includi
 
 
 <details>
-<summary><b><a href=" "> </a>Iterators and for-of loops</b></summary><br>
+<summary><b><a href=" "> </a>Iterators and for-of loops</b></summary>
 
 #### Iterators
 
