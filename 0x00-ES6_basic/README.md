@@ -96,6 +96,7 @@
 <details>
 <summary><b><a href=" "> </a>What ES6 is</b></summary><br>
 
+ES6, also known as ECMAScript 2015, is the sixth edition of the ECMAScript language specification. ECMAScript is the standard upon which JavaScript is based. ES6 introduced a significant update to JavaScript, adding many new features and improvements to the language, which have since become foundational for modern JavaScript development. 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
