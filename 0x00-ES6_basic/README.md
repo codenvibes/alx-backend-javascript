@@ -17,7 +17,7 @@
 
 
 <details>
-<summary><b><a href="">Software Linter</a></b></summary><br>
+<summary><b><a href="https://intranet.alxswe.com/concepts/542">Software Linter</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
