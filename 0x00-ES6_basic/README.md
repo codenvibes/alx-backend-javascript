@@ -913,6 +913,136 @@ ES6 introduced several enhancements to object creation and manipulation, includi
 <details>
 <summary><b><a href=" "> </a>Iterators and for-of loops</b></summary><br>
 
+#### Iterators
+
+An iterator is an object that provides a mechanism to traverse a collection, one element at a time. In JavaScript, an iterator is an object with a `next()` method that returns an object with two properties: `value` (the next value in the sequence) and `done` (a boolean indicating whether the iteration is complete).
+
+**Creating an Iterator:**
+
+You can create an iterator by defining an object with a `next()` method.
+
+**Example:**
+
+```javascript
+function makeIterator(array) {
+  let index = 0;
+  return {
+    next: function() {
+      return index < array.length ?
+        { value: array[index++], done: false } :
+        { value: undefined, done: true };
+    }
+  };
+}
+
+const it = makeIterator(['a', 'b', 'c']);
+console.log(it.next()); // { value: 'a', done: false }
+console.log(it.next()); // { value: 'b', done: false }
+console.log(it.next()); // { value: 'c', done: false }
+console.log(it.next()); // { value: undefined, done: true }
+```
+
+#### Iterable Protocol
+
+An object is iterable if it implements the iterable protocol. To be iterable, an object must have a method (typically named `Symbol.iterator`) that returns an iterator.
+
+**Example:**
+
+```javascript
+const iterableObject = {
+  [Symbol.iterator]: function() {
+    let step = 0;
+    return {
+      next: function() {
+        step++;
+        if (step === 1) {
+          return { value: 'Hello', done: false };
+        } else if (step === 2) {
+          return { value: 'World', done: false };
+        }
+        return { value: undefined, done: true };
+      }
+    };
+  }
+};
+
+const iterator = iterableObject[Symbol.iterator]();
+console.log(iterator.next()); // { value: 'Hello', done: false }
+console.log(iterator.next()); // { value: 'World', done: false }
+console.log(iterator.next()); // { value: undefined, done: true }
+```
+
+#### `for-of` Loop
+
+The `for-of` loop is a new loop introduced in ES6 that iterates over iterable objects (such as arrays, strings, maps, sets, and more). It provides a simpler and more readable way to iterate over all elements in a collection.
+
+**Example with Array:**
+
+```javascript
+const array = ['a', 'b', 'c'];
+
+for (const element of array) {
+  console.log(element);
+}
+// Output:
+// a
+// b
+// c
+```
+
+**Example with String:**
+
+```javascript
+const string = 'Hello';
+
+for (const char of string) {
+  console.log(char);
+}
+// Output:
+// H
+// e
+// l
+// l
+// o
+```
+
+**Example with Map:**
+
+```javascript
+const map = new Map([
+  ['key1', 'value1'],
+  ['key2', 'value2']
+]);
+
+for (const [key, value] of map) {
+  console.log(`${key}: ${value}`);
+}
+// Output:
+// key1: value1
+// key2: value2
+```
+
+**Example with Set:**
+
+```javascript
+const set = new Set(['a', 'b', 'c']);
+
+for (const value of set) {
+  console.log(value);
+}
+// Output:
+// a
+// b
+// c
+```
+
+### Summary
+
+- **Iterators**: Objects with a `next()` method that returns `{ value, done }` pairs, used to traverse collections.
+- **Iterable Protocol**: Objects with a `Symbol.iterator` method that returns an iterator.
+- **`for-of` Loop**: A loop that iterates over iterable objects, providing a convenient way to loop through arrays, strings, maps, sets, and more.
+
+These features make iterating over collections more flexible and powerful, improving the readability and maintainability of your JavaScript code.
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
