@@ -1,6 +1,20 @@
 <h1 align="center"><b>0x00. ES6 BASICS</b></h1>
 <div align="center"><code>JavaScript</code> <code>ES6</code></div>
 
+<br>
+<div align="center"><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png"></div>
+
+
+<br>
+
+## Concepts
+<details>
+<summary><b><a href="https://www.w3schools.com/js/js_es6.asp">ECMAScript 6 - ECMAScript 2015</a></b></summary><br>
+
+
+<br><p align="center">※※※※※※※※※※※※</p><br>
+</details>
+
 <!-- <br>
 
 ## Background Context -->
@@ -11,9 +25,6 @@
 <h3><a href=>Notes</a></h3>
 <hr> -->
 
-<br>
-
-<img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png">
 
 <br>
 
