@@ -4,15 +4,15 @@
 <br>
 <div>
 <details>
-<summary><div align="center"><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png"></div></summary>
+<summary><div align="center"><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png"></div></summary><br>
 
-This image is a meme about arrow functions in JavaScript introduced in ECMAScript 2015 (ES6).  
+*This image is a meme about arrow functions in JavaScript introduced in ECMAScript 2015 (ES6).*  
 
-Arrow functions provide a more concise syntax compared to traditional function declarations. One of the key advantages of arrow functions is that they alter how the  `this` keyword behaves. In JavaScript, the value of `this` can be confusing, especially when working with nested functions or event handlers. Arrow functions don't have their own  `this` binding, they inherit the  `this` value from the surrounding context. 
+*Arrow functions provide a more concise syntax compared to traditional function declarations. One of the key advantages of arrow functions is that they alter how the  `this` keyword behaves. In JavaScript, the value of `this` can be confusing, especially when working with nested functions or event handlers. Arrow functions don't have their own  `this` binding, they inherit the  `this` value from the surrounding context.* 
 
-The meme refers to the confusion around the value of `this` in JavaScript and how arrow functions can help to clarify it. By using arrow functions, you don't have to worry about the `this` keyword accidentally referring to something unexpected.   
+*The meme refers to the confusion around the value of `this` in JavaScript and how arrow functions can help to clarify it. By using arrow functions, you don't have to worry about the `this` keyword accidentally referring to something unexpected. *  
 
-Here is an example of how the value of `this` can be different in a traditional function  vs an arrow function:
+*Here is an example of how the value of `this` can be different in a traditional function  vs an arrow function:*
 
 ```javascript
 const button = document.querySelector('button');
@@ -26,7 +26,7 @@ button.addEventListener('click', () => {
 });
 ```
 
-In the first example, the traditional function declaration creates its own context, so `this` refers to the button element. In the second example, the arrow function inherits the `this` value from the surrounding context, which is the window object. 
+*In the first example, the traditional function declaration creates its own context, so `this` refers to the button element. In the second example, the arrow function inherits the `this` value from the surrounding context, which is the window object.*
 </details>
 </div>
 
