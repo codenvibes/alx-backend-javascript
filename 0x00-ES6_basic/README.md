@@ -2,7 +2,11 @@
 <div align="center"><code>JavaScript</code> <code>ES6</code></div>
 
 <br>
-<div align="center"><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png"></div>
+<div align="center">
+<details>
+<summary><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png"></summary>
+</details>
+</div>
 
 
 <br>
