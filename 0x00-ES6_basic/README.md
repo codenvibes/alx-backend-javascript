@@ -2,9 +2,9 @@
 <div align="center"><code>JavaScript</code> <code>ES6</code></div>
 
 <br>
-<div align="center">
+<div>
 <details>
-<summary><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png"></summary>
+<summary><div align="center"><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png"></div></summary>
 
 This image is a meme about arrow functions in JavaScript introduced in ECMAScript 2015 (ES6).  
 
