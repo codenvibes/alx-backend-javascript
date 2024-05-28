@@ -6,7 +6,7 @@
 
 <div align="center">
 <details>
-<summary>This meme</summary><br>
+<summary>⬆️This meme</summary><br>
 <div align="left">
 
 *This image is a meme about arrow functions in JavaScript introduced in ECMAScript 2015 (ES6).*  
