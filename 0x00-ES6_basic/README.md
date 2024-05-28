@@ -2,11 +2,12 @@
 <div align="center"><code>JavaScript</code> <code>ES6</code></div>
 
 <br>
-<div align="center"><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png"></div><br>
+<div align="center"><img src="https://github.com/codenvibes/alx-backend-javascript/blob/master/0x00-ES6_basic/images/08806026ef621f900121.png"></div>
 
 <div align="center">
 <details>
 <summary>This meme</summary><br>
+<div align="left">
 
 *This image is a meme about arrow functions in JavaScript introduced in ECMAScript 2015 (ES6).*  
 
@@ -29,6 +30,7 @@ button.addEventListener('click', () => {
 ```
 
 *In the first example, the traditional function declaration creates its own context, so `this` refers to the button element. In the second example, the arrow function inherits the `this` value from the surrounding context, which is the window object.*
+</div>
 </details>
 </div>
 
