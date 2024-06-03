@@ -1494,6 +1494,36 @@ bob@dylan:~$ npm run dev 8-main.js
 { 'income-2021': 2100, 'gdp-2021': 5200, 'capita-2021': 1090 }
 bob@dylan:~$
 ```
+
+<br>
+
+<details><summary><u><i>solution:</i></u></summary><br>
+
+*Here's the `getBudgetForCurrentYear` function rewritten to use ES6 computed property names on the `budget` object:*
+
+```javascript
+function getCurrentYear() {
+  const date = new Date();
+  return date.getFullYear();
+}
+
+export default function getBudgetForCurrentYear(income, gdp, capita) {
+  const currentYear = getCurrentYear();
+  
+  const budget = {
+    [`income-${currentYear}`]: income,
+    [`gdp-${currentYear}`]: gdp,
+    [`capita-${currentYear}`]: capita,
+  };
+
+  return budget;
+}
+```
+
+*This approach uses the computed property names syntax directly within the object literal, making the code cleaner and more concise.*
+
+</details>
+
 </details>
 
 <details>
