@@ -1431,6 +1431,27 @@ bob@dylan:~$ npm run dev 7-main.js
 { income: 400, gdp: 700, capita: 900 }
 bob@dylan:~$
 ```
+
+<details><summary>solution:</summary>
+
+*You can simplify the object creation in your function by using shorthand property names in JavaScript. When the variable name is the same as the key name, you can omit the value assignment. Here's the modified function:*
+
+```javascript
+export default function getBudgetObject(income, gdp, capita) {
+  const budget = {
+    income,
+    gdp,
+    capita,
+  };
+
+  return budget;
+}
+```
+
+*With this modification, the function will produce the same output. The object keys will automatically take the values of the variables with the same names.*
+
+</details>
+
 </details>
 
 <details>
