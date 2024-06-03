@@ -1466,7 +1466,7 @@ File: [8-getBudgetCurrentYear.js]()
 </summary>
 
 Rewrite the ``getBudgetForCurrentYear`` function to use ES6 computed property names on the `budget` object
-```
+```javascript
 function getCurrentYear() {
   const date = new Date();
   return date.getFullYear();
