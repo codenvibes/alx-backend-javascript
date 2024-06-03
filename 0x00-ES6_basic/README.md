@@ -1432,7 +1432,9 @@ bob@dylan:~$ npm run dev 7-main.js
 bob@dylan:~$
 ```
 
-<details><summary>solution:</summary>
+<br>
+
+<details><summary><u><i>solution:</i></u></summary><br>
 
 *You can simplify the object creation in your function by using shorthand property names in JavaScript. When the variable name is the same as the key name, you can omit the value assignment. Here's the modified function:*
 
