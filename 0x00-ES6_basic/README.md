@@ -1582,7 +1582,7 @@ File: [10-loops.js]()
 </summary>
 
 Rewrite the function `appendToEachArrayValue` to use ES6’s `for...of` operator. And don’t forget that var is not ES6-friendly.
-```
+```javascript
 export default function appendToEachArrayValue(array, appendString) {
   for (var idx in array) {
     var value = array[idx];
