@@ -1647,13 +1647,13 @@ Write a function named `createEmployeesObject` that will receive two arguments:
 
 - `departmentName` (String)
 - `employees` (Array of Strings)
-```
+```javascript
 export default function createEmployeesObject(departmentName, employees) {
 
 }
 ```
 The function should return an object with the following format:
-```
+```javascript
 {
      $departmentName: [
           $employees,
