@@ -1604,6 +1604,32 @@ bob@dylan:~$ npm run dev 10-main.js
 [ 'correctly-appended', 'correctly-fixed', 'correctly-displayed' ]
 bob@dylan:~$
 ```
+
+<details><summary><u><i>solution:</i></u></summary><br>
+
+*To rewrite the `appendToEachArrayValue` function using ES6's `for...of` operator and to avoid using `var`, we can use `let` or `const`. Here's the updated version of the function:*
+
+```javascript
+export default function appendToEachArrayValue(array, appendString) {
+  for (let value of array) {
+    const idx = array.indexOf(value);
+    array[idx] = appendString + value;
+  }
+
+  return array;
+}
+```
+
+*Here's how the function works:*
+1. *It uses the `for...of` loop to iterate over each value in the array.*
+2. *For each value, it finds the index using `array.indexOf(value)`.*
+3. *It then updates the array at that index with the concatenated string.*
+4. *Finally, it returns the modified array.*
+
+*This ensures that the function is ES6-friendly and avoids using `var`.*
+
+</details>
+
 </details>
 
 <details>
