@@ -1605,6 +1605,8 @@ bob@dylan:~$ npm run dev 10-main.js
 bob@dylan:~$
 ```
 
+<br>
+
 <details><summary><u><i>solution:</i></u></summary><br>
 
 *To rewrite the `appendToEachArrayValue` function using ES6's `for...of` operator and to avoid using `var`, we can use `let` or `const`. Here's the updated version of the function:*
