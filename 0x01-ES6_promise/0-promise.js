@@ -1,6 +1,7 @@
 /**
  * AUTH: bugnvibes
- * TASK: Return a Promise using this prototype function getResponseFromAPI()
+ * TASK: Return a Promise using this prototype function 
+         getResponseFromAPI()
 */
 
 export default function getResponseFromAPI() {
