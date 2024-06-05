@@ -13,16 +13,12 @@ import uploadPhoto from './5-photo-reject';
  */
 
 export default async function handleProfileSignup(firstName, lastName, fileName) {
-  // Create the promises for user signup and photo upload
-  const signUpPromise = signUpUser(firstName, lastName);
-  const uploadPhotoPromise = uploadPhoto(fileName);
-
-  // Wait for all promises to settle
-  const results = await Promise.allSettled([signUpPromise, uploadPhotoPromise]);
-
-  // Format the results into the specified structure
-  return results.map((result) => ({
-    status: result.status,
-    value: result.status === 'fulfilled' ? result.value : result.reason,
-  }));
+  return Promise
+    .allSettled([signUpUser(firstName, lastName), uploadPhoto(fileName)])
+    .then((res) => (
+      res.map((o) => ({
+        status: o.status,
+        value: o.status === 'fulfilled' ? o.value : String(o.reason),
+      }))
+    ));
 }
