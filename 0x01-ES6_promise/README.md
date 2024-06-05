@@ -180,6 +180,19 @@ Add the files below to your project directory
 
 ```
 
+module.exports = {
+  presets: [
+    [
+      '@babel/preset-env',
+      {
+        targets: {
+          node: 'current',
+        },
+      },
+    ],
+  ],
+};
+
 ```
 
 </details>
