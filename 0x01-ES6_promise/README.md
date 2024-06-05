@@ -147,13 +147,34 @@ in your project directory, install Jest, Babel and ESList by using the supplied 
 Add the files below to your project directory
 
 ### `package.json`
-Click to show/hide file contents
+<details><summary>Click to show/hide file contents</summary>
+
+```
+
+```
+
+</details>
+
 ### `babel.config.js`
-Click to show/hide file contents
+<details><summary>Click to show/hide file contents</summary>
+
+```
+
+```
+
+</details>
+
 ### `utils.js`
 Use when you get to tasks requiring `uploadPhoto` and `createUser`.
 
-Click to show/hide file contents
+<details><summary>Click to show/hide file contents</summary>
+
+```
+
+```
+
+</details>
+
 ### `.eslintrc.js`
 Click to show/hide file contents
 ### and…
