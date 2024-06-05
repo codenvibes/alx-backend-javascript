@@ -204,12 +204,33 @@ Use when you get to tasks requiring `uploadPhoto` and `createUser`.
 
 ```
 
+export function uploadPhoto() {
+  return Promise.resolve({
+    status: 200,
+    body: 'photo-profile-1',
+  });
+}
+
+
+export function createUser() {
+  return Promise.resolve({
+    firstName: 'Guillaume',
+    lastName: 'Salva',
+  });
+}
+
 ```
 
 </details>
 
 ### `.eslintrc.js`
-Click to show/hide file contents
+
+<details><summary>Click to show/hide file contents</summary>
+
+```
+
+```
+
 ### and…
 Don’t forget to run `$ npm install` when you have the `package.json`
 
