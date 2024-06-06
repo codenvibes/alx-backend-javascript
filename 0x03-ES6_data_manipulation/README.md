@@ -128,11 +128,32 @@ in your project directory, install Jest, Babel and ESList by using the supplied 
 Add the following files to your project directory
 
 ### `package.json`
-Click to show/hide file contents
+<details><summary>Click to show/hide file contents</summary>
+
+```
+
+```
+
+</details>
+
 ### `babel.config.js`
-Click to show/hide file contents
+<details><summary>Click to show/hide file contents</summary>
+
+```
+
+```
+
+</details>
+
 ### `.eslintrc.js`
-Click to show/hide file contents
+<details><summary>Click to show/hide file contents</summary>
+
+```
+
+```
+
+</details>
+
 ### and…
 Don’t forget to run `$ npm install` when you have the `package.json`
 
