@@ -195,6 +195,19 @@ module.exports =  {
 
 ```
 
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+        "skipLibCheck": true
+  }
+}
+
 ```
 
 </details>
