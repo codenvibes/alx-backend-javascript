@@ -1,12 +1,12 @@
 /**
  * AUTH: bugsnvibes
- * Calculates the sum of all student IDs.
- * @param {Array<Object>} students - List of student objects.
- * @returns {number} - Sum of all student IDs.
+ * Takes an object representing students and calculates the sum of their IDs.
+ *
+ * @param {Object} studentObj - An object where the keys are student identifiers and the values are objects containing student details, including an 'id' property.
+ * @returns {number} - The sum of all student IDs.
  */
 
-import { reduce } from 'lodash';
-
-export default function getStudentIdsSum(students) {
-  return reduce(students, (sum, student) => sum + student.id, 0);
+export default function (studentObj) {
+  const idList = Object.values(studentObj).map((o) => o.id);
+  return idList.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 }
