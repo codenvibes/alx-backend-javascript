@@ -1,23 +1,25 @@
 /**
  * AUTH: bugsnvibes
- * Returns a string of all the set values that start with a specific string.
- *
- * @param {Set} set - The set of values to clean.
- * @param {string} startString - The string to match the start of values in the set.
- * @returns {string} A string containing all values of the set that start with the specified
-   string, separated by '-'.
+ * Removes the specified startString from each string value in the set and returns a concatenated
+   string of the remaining parts separated by '-'.
+ * @param {Set} set - The set to clean.
+ * @param {string} startString - The string prefix to remove from values in the set.
+ * @returns {string} - The cleaned string.
  */
 
 export default function cleanSet(set, startString) {
-  let result = '';
-  for (const value of set) {
-    if (value.startsWith(startString)) {
-      result += `${value.substring(startString.length)}-`;
+  const parts = [];
+  if (!set || !startString || !(set instanceof Set) || typeof startString !== 'string') {
+    return '';
+  }
+  for (const value of set.values()) {
+    if (typeof value === 'string' && value.startsWith(startString)) {
+      const valueSubStr = value.substring(startString.length);
+
+      if (valueSubStr && valueSubStr !== value) {
+        parts.push(valueSubStr);
+      }
     }
   }
-  // Remove the trailing '-' if there are any elements in the result
-  if (result.length > 0) {
-    result = result.slice(0, -1);
-  }
-  return result;
+  return parts.join('-');
 }
