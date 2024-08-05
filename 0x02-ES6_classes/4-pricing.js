@@ -69,9 +69,9 @@ export default class Pricing {
    * @throws {TypeError} If currencyType is not an object with name and code as strings.
    */
   set currency(currencyType) {
-    if (typeof currencyType === 'object' && 
-        typeof currencyType.name === 'string' && 
-        typeof currencyType.code === 'string') {
+    if (typeof currencyType === 'object'
+        && typeof currencyType.name === 'string'
+        && typeof currencyType.code === 'string') {
       this._currency = currencyType;
     } else {
       throw new TypeError('currency must be an object with name and code as strings');
