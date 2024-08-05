@@ -14,7 +14,7 @@ export default class EVCar extends Car {
    */
   constructor(brand, motor, color, range) {
     super(brand, motor, color);
-    /** 
+    /**
      * @private
      * @type {number}
      */
@@ -22,7 +22,7 @@ export default class EVCar extends Car {
   }
 
   /**
-   * Creates a clone of the EVCar. 
+   * Creates a clone of the EVCar.
    * Note: This method creates a new Car instance rather than an EVCar.
    * @returns {Car} - A new instance of the Car class.
    */
