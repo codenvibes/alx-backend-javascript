@@ -38,7 +38,7 @@
 
 
 <details>
-<summary><b><a href="https://intranet.alxswe.com/rltoken/XsfrhG9NRLuuaTpVZlZv_g">Express getting started</a></b></summary><br>
+<summary><b><a href="https://expressjs.com/en/starter/installing.html">Express getting started</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
