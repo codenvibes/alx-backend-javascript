@@ -30,7 +30,7 @@
 
 
 <details>
-<summary><b><a href="https://intranet.alxswe.com/rltoken/IS4y9rRCblX71W_oeXpymw">Child process</a></b></summary><br>
+<summary><b><a href="https://nodejs.org/api/child_process.html">Child process</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
