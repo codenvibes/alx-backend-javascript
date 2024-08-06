@@ -54,7 +54,7 @@
 
 
 <details>
-<summary><b><a href="https://intranet.alxswe.com/rltoken/vnDSbLsicMDdxcf5YUSXIg">Nodemon documentation</a></b></summary><br>
+<summary><b><a href="https://github.com/remy/nodemon#nodemon">Nodemon documentation</a></b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
